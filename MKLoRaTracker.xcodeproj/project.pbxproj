@@ -1,0 +1,2036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005305BC251D8FB600099E3E /* MKVibIntenSityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005305BB251D8FB600099E3E /* MKVibIntenSityCell.m */; };
+		005305C0251D935000099E3E /* MKVibrationInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005305BF251D935000099E3E /* MKVibrationInfoCell.m */; };
+		0055FA4524C2916400DCC058 /* MKScannerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA4424C2916400DCC058 /* MKScannerDataModel.m */; };
+		0055FA4824C2985400DCC058 /* MKAlarmTriggerRssiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA4724C2985400DCC058 /* MKAlarmTriggerRssiCell.m */; };
+		0055FA4F24C2DA4700DCC058 /* MKLoRaSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA4E24C2DA4700DCC058 /* MKLoRaSettingController.m */; };
+		0055FA5224C2DD5000DCC058 /* MKDeviceSettingTextCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA5124C2DD5000DCC058 /* MKDeviceSettingTextCellModel.m */; };
+		0055FA5724C2DD8A00DCC058 /* MKDeviceSettingTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA5524C2DD8A00DCC058 /* MKDeviceSettingTextCell.m */; };
+		0055FA5824C2DD8A00DCC058 /* MKDeviceSettingBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA5624C2DD8A00DCC058 /* MKDeviceSettingBaseCell.m */; };
+		0055FA6424C2E76B00DCC058 /* MKDeviceSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA6324C2E76B00DCC058 /* MKDeviceSettingModel.m */; };
+		0055FA6724C2EF6700DCC058 /* MKRegionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA6524C2EF6700DCC058 /* MKRegionCell.m */; };
+		0055FA6D24C2F12F00DCC058 /* MKMessageTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA6C24C2F12F00DCC058 /* MKMessageTypeCell.m */; };
+		0055FA7024C2F4AC00DCC058 /* MKIntervalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055FA6E24C2F4AC00DCC058 /* MKIntervalCell.m */; };
+		005B2BDF24C80F8C008BDB27 /* filterRawDataSubIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B2BDB24C80F8B008BDB27 /* filterRawDataSubIcon@3x.png */; };
+		005B2BE024C80F8C008BDB27 /* filterRawDataAddIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B2BDC24C80F8B008BDB27 /* filterRawDataAddIcon@2x.png */; };
+		005B2BE124C80F8C008BDB27 /* filterRawDataSubIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B2BDD24C80F8C008BDB27 /* filterRawDataSubIcon@2x.png */; };
+		005B2BE224C80F8C008BDB27 /* filterRawDataAddIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B2BDE24C80F8C008BDB27 /* filterRawDataAddIcon@3x.png */; };
+		005B2BF224C816F2008BDB27 /* MKFilterOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2BF124C816F2008BDB27 /* MKFilterOptionsController.m */; };
+		005B2BF724C818C0008BDB27 /* MKFilterRawOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2BF324C818C0008BDB27 /* MKFilterRawOptionsView.m */; };
+		005B2BF824C818C0008BDB27 /* MKFilterOptionsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2BF524C818C0008BDB27 /* MKFilterOptionsHeaderView.m */; };
+		005B2BFB24C81952008BDB27 /* MKFilterRawDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2BFA24C81952008BDB27 /* MKFilterRawDataCell.m */; };
+		005B2BFE24C81979008BDB27 /* MKAdvDataFliterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2BFD24C81979008BDB27 /* MKAdvDataFliterCell.m */; };
+		005B2C0124C8199F008BDB27 /* MKFilterMajorMinorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2BFF24C8199F008BDB27 /* MKFilterMajorMinorCell.m */; };
+		005B2C0A24C81A61008BDB27 /* MKAdvDataFliterCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2C0324C81A60008BDB27 /* MKAdvDataFliterCellModel.m */; };
+		005B2C0B24C81A61008BDB27 /* MKFilterRawDataCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2C0424C81A60008BDB27 /* MKFilterRawDataCellModel.m */; };
+		005B2C0C24C81A61008BDB27 /* MKFilterMajorMinorCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2C0524C81A60008BDB27 /* MKFilterMajorMinorCellModel.m */; };
+		005B2C0D24C81A61008BDB27 /* MKFilterOptionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005B2C0824C81A61008BDB27 /* MKFilterOptionsModel.m */; };
+		005B2C1224C86534008BDB27 /* aboutBottomIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B2C1024C86533008BDB27 /* aboutBottomIcon@2x.png */; };
+		005B2C1324C86534008BDB27 /* aboutBottomIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B2C1124C86533008BDB27 /* aboutBottomIcon@3x.png */; };
+		006455E624C13ACA00F87A31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006455E524C13ACA00F87A31 /* AppDelegate.m */; };
+		006455F124C13ACC00F87A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006455F024C13ACC00F87A31 /* Assets.xcassets */; };
+		006455F724C13ACC00F87A31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006455F624C13ACC00F87A31 /* main.m */; };
+		006456B124C13E7A00F87A31 /* batteryLower@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 006455FF24C13E7A00F87A31 /* batteryLower@3x.png */; };
+		006456B224C13E7A00F87A31 /* wifisignalIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560024C13E7A00F87A31 /* wifisignalIcon@2x.png */; };
+		006456B324C13E7A00F87A31 /* cellRight_selected_pic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560124C13E7A00F87A31 /* cellRight_selected_pic@3x.png */; };
+		006456B424C13E7A00F87A31 /* slot_export_deleteIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560224C13E7A00F87A31 /* slot_export_deleteIcon@2x.png */; };
+		006456B524C13E7A00F87A31 /* setting_updateFirmwareIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560324C13E7A00F87A31 /* setting_updateFirmwareIcon@2x.png */; };
+		006456B624C13E7A00F87A31 /* signalIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560424C13E7A00F87A31 /* signalIcon@3x.png */; };
+		006456B724C13E7A00F87A31 /* device_manufacture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560524C13E7A00F87A31 /* device_manufacture@2x.png */; };
+		006456B824C13E7A00F87A31 /* settingTabBarItemUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560624C13E7A00F87A31 /* settingTabBarItemUnselected@2x.png */; };
+		006456B924C13E7A00F87A31 /* setting_reset@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560724C13E7A00F87A31 /* setting_reset@3x.png */; };
+		006456BA24C13E7A00F87A31 /* setting_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560824C13E7A00F87A31 /* setting_password@2x.png */; };
+		006456BB24C13E7A00F87A31 /* advTabBarItemUnselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560924C13E7A00F87A31 /* advTabBarItemUnselected@3x.png */; };
+		006456BC24C13E7A00F87A31 /* slot_config_humidityIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560A24C13E7A00F87A31 /* slot_config_humidityIcon@3x.png */; };
+		006456BD24C13E7A00F87A31 /* scannerTabBarItemSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560B24C13E7A00F87A31 /* scannerTabBarItemSelected@3x.png */; };
+		006456BE24C13E7A00F87A31 /* setting_directed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560C24C13E7A00F87A31 /* setting_directed@3x.png */; };
+		006456BF24C13E7A00F87A31 /* slotDataTypeT&HIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560D24C13E7A00F87A31 /* slotDataTypeT&HIcon@2x.png */; };
+		006456C024C13E7A00F87A31 /* rightAddDisableIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560E24C13E7A00F87A31 /* rightAddDisableIcon@3x.png */; };
+		006456C124C13E7A00F87A31 /* searchBlueIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064560F24C13E7A00F87A31 /* searchBlueIcon@3x.png */; };
+		006456C224C13E7A00F87A31 /* setting_devicename@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561024C13E7A00F87A31 /* setting_devicename@3x.png */; };
+		006456C324C13E7A00F87A31 /* setting_devicename@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561124C13E7A00F87A31 /* setting_devicename@2x.png */; };
+		006456C424C13E7A00F87A31 /* searchBlueIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561224C13E7A00F87A31 /* searchBlueIcon@2x.png */; };
+		006456C524C13E7A00F87A31 /* slotDataTypeT&HIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561324C13E7A00F87A31 /* slotDataTypeT&HIcon@3x.png */; };
+		006456C624C13E7A00F87A31 /* rightAddDisableIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561424C13E7A00F87A31 /* rightAddDisableIcon@2x.png */; };
+		006456C724C13E7A00F87A31 /* setting_directed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561524C13E7A00F87A31 /* setting_directed@2x.png */; };
+		006456C824C13E7A00F87A31 /* scannerTabBarItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561624C13E7A00F87A31 /* scannerTabBarItemSelected@2x.png */; };
+		006456C924C13E7B00F87A31 /* slot_config_humidityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561724C13E7A00F87A31 /* slot_config_humidityIcon@2x.png */; };
+		006456CA24C13E7B00F87A31 /* advTabBarItemUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561824C13E7A00F87A31 /* advTabBarItemUnselected@2x.png */; };
+		006456CB24C13E7B00F87A31 /* setting_reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561924C13E7A00F87A31 /* setting_reset@2x.png */; };
+		006456CC24C13E7B00F87A31 /* setting_password@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561A24C13E7A00F87A31 /* setting_password@3x.png */; };
+		006456CD24C13E7B00F87A31 /* settingTabBarItemUnselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561B24C13E7A00F87A31 /* settingTabBarItemUnselected@3x.png */; };
+		006456CE24C13E7B00F87A31 /* signalIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561C24C13E7A00F87A31 /* signalIcon@2x.png */; };
+		006456CF24C13E7B00F87A31 /* device_manufacture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561D24C13E7A00F87A31 /* device_manufacture@3x.png */; };
+		006456D024C13E7B00F87A31 /* slot_export_deleteIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561E24C13E7A00F87A31 /* slot_export_deleteIcon@3x.png */; };
+		006456D124C13E7B00F87A31 /* setting_updateFirmwareIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064561F24C13E7A00F87A31 /* setting_updateFirmwareIcon@3x.png */; };
+		006456D224C13E7B00F87A31 /* cellRight_selected_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562024C13E7A00F87A31 /* cellRight_selected_pic@2x.png */; };
+		006456D324C13E7B00F87A31 /* wifisignalIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562124C13E7A00F87A31 /* wifisignalIcon@3x.png */; };
+		006456D424C13E7B00F87A31 /* batteryLower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562224C13E7A00F87A31 /* batteryLower@2x.png */; };
+		006456D524C13E7B00F87A31 /* rightIconUnselectedCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562324C13E7A00F87A31 /* rightIconUnselectedCircle@3x.png */; };
+		006456D624C13E7B00F87A31 /* slotDataTypeCustom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562424C13E7A00F87A31 /* slotDataTypeCustom@3x.png */; };
+		006456D724C13E7B00F87A31 /* slotTabBarItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562524C13E7A00F87A31 /* slotTabBarItemSelected@2x.png */; };
+		006456D824C13E7B00F87A31 /* slot_frameType@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562624C13E7A00F87A31 /* slot_frameType@2x.png */; };
+		006456D924C13E7B00F87A31 /* scanRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562724C13E7A00F87A31 /* scanRefresh@2x.png */; };
+		006456DA24C13E7B00F87A31 /* slotDataTypeiBeacon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562824C13E7A00F87A31 /* slotDataTypeiBeacon@3x.png */; };
+		006456DB24C13E7B00F87A31 /* slot_htDataSaveIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562924C13E7A00F87A31 /* slot_htDataSaveIcon@3x.png */; };
+		006456DC24C13E7B00F87A31 /* batteryHigher@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562A24C13E7A00F87A31 /* batteryHigher@2x.png */; };
+		006456DD24C13E7B00F87A31 /* slot_advContent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562B24C13E7A00F87A31 /* slot_advContent@3x.png */; };
+		006456DE24C13E7B00F87A31 /* slot_baseParams@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562C24C13E7A00F87A31 /* slot_baseParams@2x.png */; };
+		006456DF24C13E7B00F87A31 /* deviceTabBarItemSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562D24C13E7A00F87A31 /* deviceTabBarItemSelected@3x.png */; };
+		006456E024C13E7B00F87A31 /* device_software@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562E24C13E7A00F87A31 /* device_software@2x.png */; };
+		006456E124C13E7B00F87A31 /* slotDataTypeThreeAccelerometerIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064562F24C13E7A00F87A31 /* slotDataTypeThreeAccelerometerIcon@3x.png */; };
+		006456E224C13E7B00F87A31 /* scanHeaderView_ arrowDownIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563024C13E7A00F87A31 /* scanHeaderView_ arrowDownIcon@3x.png */; };
+		006456E324C13E7B00F87A31 /* slotInfoTypeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563124C13E7A00F87A31 /* slotInfoTypeIcon@2x.png */; };
+		006456E424C13E7B00F87A31 /* slotDataTypeNoData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563224C13E7A00F87A31 /* slotDataTypeNoData@2x.png */; };
+		006456E524C13E7B00F87A31 /* searchGrayIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563324C13E7A00F87A31 /* searchGrayIcon@3x.png */; };
+		006456E624C13E7B00F87A31 /* goto_next_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563424C13E7A00F87A31 /* goto_next_button@3x.png */; };
+		006456E724C13E7B00F87A31 /* goto_next_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563524C13E7A00F87A31 /* goto_next_button@2x.png */; };
+		006456E824C13E7B00F87A31 /* searchGrayIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563624C13E7A00F87A31 /* searchGrayIcon@2x.png */; };
+		006456E924C13E7B00F87A31 /* scanHeaderView_ arrowDownIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563724C13E7A00F87A31 /* scanHeaderView_ arrowDownIcon@2x.png */; };
+		006456EA24C13E7B00F87A31 /* slotDataTypeNoData@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563824C13E7A00F87A31 /* slotDataTypeNoData@3x.png */; };
+		006456EB24C13E7B00F87A31 /* slotInfoTypeIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563924C13E7A00F87A31 /* slotInfoTypeIcon@3x.png */; };
+		006456EC24C13E7B00F87A31 /* slotDataTypeThreeAccelerometerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563A24C13E7A00F87A31 /* slotDataTypeThreeAccelerometerIcon@2x.png */; };
+		006456ED24C13E7B00F87A31 /* deviceTabBarItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563B24C13E7A00F87A31 /* deviceTabBarItemSelected@2x.png */; };
+		006456EE24C13E7B00F87A31 /* device_software@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563C24C13E7A00F87A31 /* device_software@3x.png */; };
+		006456EF24C13E7B00F87A31 /* slot_baseParams@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563D24C13E7A00F87A31 /* slot_baseParams@3x.png */; };
+		006456F024C13E7B00F87A31 /* slot_advContent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563E24C13E7A00F87A31 /* slot_advContent@2x.png */; };
+		006456F124C13E7B00F87A31 /* batteryHigher@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064563F24C13E7A00F87A31 /* batteryHigher@3x.png */; };
+		006456F224C13E7B00F87A31 /* slot_htDataSaveIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564024C13E7A00F87A31 /* slot_htDataSaveIcon@2x.png */; };
+		006456F324C13E7B00F87A31 /* slotDataTypeiBeacon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564124C13E7A00F87A31 /* slotDataTypeiBeacon@2x.png */; };
+		006456F424C13E7B00F87A31 /* scanRefresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564224C13E7A00F87A31 /* scanRefresh@3x.png */; };
+		006456F524C13E7B00F87A31 /* slotDataTypeCustom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564324C13E7A00F87A31 /* slotDataTypeCustom@2x.png */; };
+		006456F624C13E7B00F87A31 /* slotTabBarItemSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564424C13E7A00F87A31 /* slotTabBarItemSelected@3x.png */; };
+		006456F724C13E7B00F87A31 /* slot_frameType@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564524C13E7A00F87A31 /* slot_frameType@3x.png */; };
+		006456F824C13E7B00F87A31 /* rightIconUnselectedCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564624C13E7A00F87A31 /* rightIconUnselectedCircle@2x.png */; };
+		006456F924C13E7B00F87A31 /* slot_baseParams_advertising@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564724C13E7A00F87A31 /* slot_baseParams_advertising@3x.png */; };
+		006456FA24C13E7B00F87A31 /* device_runningtime@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564824C13E7A00F87A31 /* device_runningtime@2x.png */; };
+		006456FB24C13E7B00F87A31 /* advTabBarItemSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564924C13E7A00F87A31 /* advTabBarItemSelected@3x.png */; };
+		006456FC24C13E7B00F87A31 /* slotDataTypeH&TIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564A24C13E7A00F87A31 /* slotDataTypeH&TIcon@2x.png */; };
+		006456FD24C13E7B00F87A31 /* clearButtonIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564B24C13E7A00F87A31 /* clearButtonIcon@3x.png */; };
+		006456FE24C13E7B00F87A31 /* goNext_whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564C24C13E7A00F87A31 /* goNext_whiteButton@2x.png */; };
+		006456FF24C13E7B00F87A31 /* refreshIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564D24C13E7A00F87A31 /* refreshIcon@2x.png */; };
+		0064570024C13E7B00F87A31 /* device_soc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564E24C13E7A00F87A31 /* device_soc@2x.png */; };
+		0064570124C13E7B00F87A31 /* slot_paramsConfig_unselectedIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064564F24C13E7A00F87A31 /* slot_paramsConfig_unselectedIcon@3x.png */; };
+		0064570224C13E7B00F87A31 /* littleBluePoint@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565024C13E7A00F87A31 /* littleBluePoint@3x.png */; };
+		0064570324C13E7B00F87A31 /* batteryHighest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565124C13E7A00F87A31 /* batteryHighest@2x.png */; };
+		0064570424C13E7B00F87A31 /* device_hardware@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565224C13E7A00F87A31 /* device_hardware@3x.png */; };
+		0064570524C13E7B00F87A31 /* slot_export_disableIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565324C13E7A00F87A31 /* slot_export_disableIcon@2x.png */; };
+		0064570624C13E7B00F87A31 /* slot_export_enableIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565424C13E7A00F87A31 /* slot_export_enableIcon@2x.png */; };
+		0064570724C13E7B00F87A31 /* scanHeaderViewBackIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565524C13E7A00F87A31 /* scanHeaderViewBackIcon@3x.png */; };
+		0064570824C13E7B00F87A31 /* setting_connectable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565624C13E7A00F87A31 /* setting_connectable@3x.png */; };
+		0064570924C13E7B00F87A31 /* batteryLowest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565724C13E7A00F87A31 /* batteryLowest@2x.png */; };
+		0064570A24C13E7B00F87A31 /* device_productmodel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565824C13E7A00F87A31 /* device_productmodel@2x.png */; };
+		0064570B24C13E7B00F87A31 /* slot_params_triggerIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565924C13E7A00F87A31 /* slot_params_triggerIcon@3x.png */; };
+		0064570C24C13E7B00F87A31 /* batteryLow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565A24C13E7A00F87A31 /* batteryLow@3x.png */; };
+		0064570D24C13E7B00F87A31 /* settingTabBarItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565B24C13E7A00F87A31 /* settingTabBarItemSelected@2x.png */; };
+		0064570E24C13E7B00F87A31 /* settingTabBarItemSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565C24C13E7A00F87A31 /* settingTabBarItemSelected@3x.png */; };
+		0064570F24C13E7B00F87A31 /* batteryLow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565D24C13E7A00F87A31 /* batteryLow@2x.png */; };
+		0064571024C13E7B00F87A31 /* slot_params_triggerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565E24C13E7A00F87A31 /* slot_params_triggerIcon@2x.png */; };
+		0064571124C13E7B00F87A31 /* device_productmodel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064565F24C13E7A00F87A31 /* device_productmodel@3x.png */; };
+		0064571224C13E7B00F87A31 /* batteryLowest@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566024C13E7A00F87A31 /* batteryLowest@3x.png */; };
+		0064571324C13E7B00F87A31 /* setting_connectable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566124C13E7A00F87A31 /* setting_connectable@2x.png */; };
+		0064571424C13E7B00F87A31 /* slot_export_disableIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566224C13E7A00F87A31 /* slot_export_disableIcon@3x.png */; };
+		0064571524C13E7B00F87A31 /* slot_export_enableIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566324C13E7A00F87A31 /* slot_export_enableIcon@3x.png */; };
+		0064571624C13E7B00F87A31 /* scanHeaderViewBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566424C13E7A00F87A31 /* scanHeaderViewBackIcon@2x.png */; };
+		0064571724C13E7B00F87A31 /* device_hardware@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566524C13E7A00F87A31 /* device_hardware@2x.png */; };
+		0064571824C13E7B00F87A31 /* batteryHighest@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566624C13E7A00F87A31 /* batteryHighest@3x.png */; };
+		0064571924C13E7B00F87A31 /* slot_paramsConfig_unselectedIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566724C13E7A00F87A31 /* slot_paramsConfig_unselectedIcon@2x.png */; };
+		0064571A24C13E7B00F87A31 /* littleBluePoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566824C13E7A00F87A31 /* littleBluePoint@2x.png */; };
+		0064571B24C13E7B00F87A31 /* refreshIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566924C13E7A00F87A31 /* refreshIcon@3x.png */; };
+		0064571C24C13E7B00F87A31 /* device_soc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566A24C13E7A00F87A31 /* device_soc@3x.png */; };
+		0064571D24C13E7B00F87A31 /* clearButtonIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566B24C13E7A00F87A31 /* clearButtonIcon@2x.png */; };
+		0064571E24C13E7B00F87A31 /* goNext_whiteButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566C24C13E7A00F87A31 /* goNext_whiteButton@3x.png */; };
+		0064571F24C13E7B00F87A31 /* slotDataTypeH&TIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566D24C13E7A00F87A31 /* slotDataTypeH&TIcon@3x.png */; };
+		0064572024C13E7B00F87A31 /* advTabBarItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566E24C13E7A00F87A31 /* advTabBarItemSelected@2x.png */; };
+		0064572124C13E7B00F87A31 /* device_runningtime@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064566F24C13E7A00F87A31 /* device_runningtime@3x.png */; };
+		0064572224C13E7B00F87A31 /* slot_baseParams_advertising@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567024C13E7A00F87A31 /* slot_baseParams_advertising@2x.png */; };
+		0064572324C13E7B00F87A31 /* slot_htUpdateTimeIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567124C13E7A00F87A31 /* slot_htUpdateTimeIcon@3x.png */; };
+		0064572424C13E7B00F87A31 /* navigation_back_button_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567224C13E7A00F87A31 /* navigation_back_button_white@3x.png */; };
+		0064572524C13E7B00F87A31 /* slot_paramsConfig_selectedIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567324C13E7A00F87A31 /* slot_paramsConfig_selectedIcon@2x.png */; };
+		0064572624C13E7B00F87A31 /* rightAddEnableIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567424C13E7A00F87A31 /* rightAddEnableIcon@3x.png */; };
+		0064572724C13E7B00F87A31 /* scanRightAboutIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567524C13E7A00F87A31 /* scanRightAboutIcon@3x.png */; };
+		0064572824C13E7B00F87A31 /* device_firmware@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567624C13E7A00F87A31 /* device_firmware@2x.png */; };
+		0064572924C13E7B00F87A31 /* rightIconSelectedCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567724C13E7A00F87A31 /* rightIconSelectedCircle@3x.png */; };
+		0064572A24C13E7B00F87A31 /* device_macadress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567824C13E7A00F87A31 /* device_macadress@3x.png */; };
+		0064572B24C13E7B00F87A31 /* slotTabBarItemUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567924C13E7A00F87A31 /* slotTabBarItemUnselected@2x.png */; };
+		0064572C24C13E7B00F87A31 /* aboutIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567A24C13E7A00F87A31 /* aboutIcon@2x.png */; };
+		0064572D24C13E7B00F87A31 /* scanHeaderView_ arrowUpIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567B24C13E7A00F87A31 /* scanHeaderView_ arrowUpIcon@2x.png */; };
+		0064572E24C13E7B00F87A31 /* scannerTabBarItemUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567C24C13E7A00F87A31 /* scannerTabBarItemUnselected@2x.png */; };
+		0064572F24C13E7B00F87A31 /* goNext_lightWhiteButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567D24C13E7A00F87A31 /* goNext_lightWhiteButton@3x.png */; };
+		0064573024C13E7B00F87A31 /* setting_update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567E24C13E7A00F87A31 /* setting_update@2x.png */; };
+		0064573124C13E7B00F87A31 /* slot_config_temperatureIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064567F24C13E7A00F87A31 /* slot_config_temperatureIcon@3x.png */; };
+		0064573224C13E7B00F87A31 /* navigation_back_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568024C13E7A00F87A31 /* navigation_back_button@3x.png */; };
+		0064573324C13E7B00F87A31 /* threeAxisAcceLoadingIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568124C13E7A00F87A31 /* threeAxisAcceLoadingIcon@3x.png */; };
+		0064573424C13E7B00F87A31 /* deviceTabBarItemUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568224C13E7A00F87A31 /* deviceTabBarItemUnselected@2x.png */; };
+		0064573524C13E7B00F87A31 /* slot_htParamsConfig_saveIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568324C13E7A00F87A31 /* slot_htParamsConfig_saveIcon@3x.png */; };
+		0064573624C13E7B00F87A31 /* setting_powerOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568424C13E7A00F87A31 /* setting_powerOff@3x.png */; };
+		0064573724C13E7B00F87A31 /* slotSaveIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568524C13E7A00F87A31 /* slotSaveIcon@3x.png */; };
+		0064573824C13E7B00F87A31 /* slotSaveIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568624C13E7A00F87A31 /* slotSaveIcon@2x.png */; };
+		0064573924C13E7B00F87A31 /* setting_powerOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568724C13E7A00F87A31 /* setting_powerOff@2x.png */; };
+		0064573A24C13E7B00F87A31 /* slot_htParamsConfig_saveIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568824C13E7A00F87A31 /* slot_htParamsConfig_saveIcon@2x.png */; };
+		0064573B24C13E7B00F87A31 /* deviceTabBarItemUnselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568924C13E7A00F87A31 /* deviceTabBarItemUnselected@3x.png */; };
+		0064573C24C13E7B00F87A31 /* threeAxisAcceLoadingIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568A24C13E7A00F87A31 /* threeAxisAcceLoadingIcon@2x.png */; };
+		0064573D24C13E7B00F87A31 /* navigation_back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568B24C13E7A00F87A31 /* navigation_back_button@2x.png */; };
+		0064573E24C13E7B00F87A31 /* slot_config_temperatureIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568C24C13E7A00F87A31 /* slot_config_temperatureIcon@2x.png */; };
+		0064573F24C13E7B00F87A31 /* setting_update@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568D24C13E7A00F87A31 /* setting_update@3x.png */; };
+		0064574024C13E7B00F87A31 /* goNext_lightWhiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568E24C13E7A00F87A31 /* goNext_lightWhiteButton@2x.png */; };
+		0064574124C13E7B00F87A31 /* scannerTabBarItemUnselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064568F24C13E7A00F87A31 /* scannerTabBarItemUnselected@3x.png */; };
+		0064574224C13E7B00F87A31 /* scanHeaderView_ arrowUpIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569024C13E7A00F87A31 /* scanHeaderView_ arrowUpIcon@3x.png */; };
+		0064574324C13E7B00F87A31 /* aboutIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569124C13E7A00F87A31 /* aboutIcon@3x.png */; };
+		0064574424C13E7B00F87A31 /* slotTabBarItemUnselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569224C13E7A00F87A31 /* slotTabBarItemUnselected@3x.png */; };
+		0064574524C13E7B00F87A31 /* device_macadress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569324C13E7A00F87A31 /* device_macadress@2x.png */; };
+		0064574624C13E7B00F87A31 /* device_firmware@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569424C13E7A00F87A31 /* device_firmware@3x.png */; };
+		0064574724C13E7B00F87A31 /* rightIconSelectedCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569524C13E7A00F87A31 /* rightIconSelectedCircle@2x.png */; };
+		0064574824C13E7B00F87A31 /* rightAddEnableIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569624C13E7A00F87A31 /* rightAddEnableIcon@2x.png */; };
+		0064574924C13E7B00F87A31 /* scanRightAboutIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569724C13E7A00F87A31 /* scanRightAboutIcon@2x.png */; };
+		0064574A24C13E7B00F87A31 /* slot_paramsConfig_selectedIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569824C13E7A00F87A31 /* slot_paramsConfig_selectedIcon@3x.png */; };
+		0064574B24C13E7B00F87A31 /* navigation_back_button_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569924C13E7A00F87A31 /* navigation_back_button_white@2x.png */; };
+		0064574C24C13E7B00F87A31 /* slot_htUpdateTimeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064569A24C13E7A00F87A31 /* slot_htUpdateTimeIcon@2x.png */; };
+		0064583824C1456F00F87A31 /* MKTrackerInterface+MKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064578124C1456E00F87A31 /* MKTrackerInterface+MKConfig.m */; };
+		0064583924C1456F00F87A31 /* MKTrackerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064578424C1456E00F87A31 /* MKTrackerInterface.m */; };
+		0064583A24C1456F00F87A31 /* CBPeripheral+MKTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064578724C1456E00F87A31 /* CBPeripheral+MKTracker.m */; };
+		0064583B24C1456F00F87A31 /* MKTrackerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064578924C1456E00F87A31 /* MKTrackerModel.m */; };
+		0064583C24C1456F00F87A31 /* MKTrackerOperationDataAdopter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064578C24C1456E00F87A31 /* MKTrackerOperationDataAdopter.m */; };
+		0064583D24C1456F00F87A31 /* MKTrackerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064578F24C1456E00F87A31 /* MKTrackerOperation.m */; };
+		0064583E24C1456F00F87A31 /* MKTrackerAdopter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064579224C1456E00F87A31 /* MKTrackerAdopter.m */; };
+		0064583F24C1456F00F87A31 /* MKTrackerPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064579824C1456E00F87A31 /* MKTrackerPeripheral.m */; };
+		0064584024C1456F00F87A31 /* MKTrackerCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064579C24C1456E00F87A31 /* MKTrackerCentralManager.m */; };
+		0064584124C1456F00F87A31 /* MKUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457A124C1456E00F87A31 /* MKUpdateController.m */; };
+		0064584224C1456F00F87A31 /* MKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457A424C1456E00F87A31 /* MKFileManager.m */; };
+		0064584324C1456F00F87A31 /* MKDFUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457A824C1456E00F87A31 /* MKDFUModel.m */; };
+		0064584424C1456F00F87A31 /* MKDFUAdopter.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457A924C1456E00F87A31 /* MKDFUAdopter.m */; };
+		0064584524C1456F00F87A31 /* MKDeviceTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457AC24C1456E00F87A31 /* MKDeviceTypeManager.m */; };
+		0064584E24C1456F00F87A31 /* MKAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457C724C1456E00F87A31 /* MKAboutController.m */; };
+		0064585C24C1456F00F87A31 /* MKScanPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457E624C1456E00F87A31 /* MKScanPageController.m */; };
+		0064585D24C1456F00F87A31 /* MKTrackerModel+MKScanAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457E924C1456E00F87A31 /* MKTrackerModel+MKScanAdd.m */; };
+		0064585E24C1456F00F87A31 /* MKConfigDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457EB24C1456E00F87A31 /* MKConfigDateModel.m */; };
+		0064585F24C1456F00F87A31 /* MKScanSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457EE24C1456E00F87A31 /* MKScanSearchView.m */; };
+		0064586024C1456F00F87A31 /* MKScanPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457F024C1456E00F87A31 /* MKScanPageCell.m */; };
+		0064586124C1456F00F87A31 /* MKScanSearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457F224C1456E00F87A31 /* MKScanSearchButton.m */; };
+		0064586224C1456F00F87A31 /* MKConnectDeviceProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 006457F324C1456E00F87A31 /* MKConnectDeviceProgressView.m */; };
+		0064587624C1456F00F87A31 /* sliderMaximumTrackImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064582824C1456F00F87A31 /* sliderMaximumTrackImage@3x.png */; };
+		0064587724C1456F00F87A31 /* sliderThumbIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064582924C1456F00F87A31 /* sliderThumbIcon@3x.png */; };
+		0064587824C1456F00F87A31 /* sliderThumbIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064582A24C1456F00F87A31 /* sliderThumbIcon@2x.png */; };
+		0064587924C1456F00F87A31 /* sliderMaximumTrackImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064582B24C1456F00F87A31 /* sliderMaximumTrackImage@2x.png */; };
+		0064587A24C1456F00F87A31 /* MKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064582C24C1456F00F87A31 /* MKSlider.m */; };
+		0064587B24C1456F00F87A31 /* sliderMinimumTrackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064582D24C1456F00F87A31 /* sliderMinimumTrackIcon@2x.png */; };
+		0064587C24C1456F00F87A31 /* sliderMinimumTrackIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064582E24C1456F00F87A31 /* sliderMinimumTrackIcon@3x.png */; };
+		0064587D24C1456F00F87A31 /* MKContactTrackerTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064583424C1456F00F87A31 /* MKContactTrackerTextCell.m */; };
+		0064588024C1485500F87A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0064587F24C1485500F87A31 /* LaunchScreen.storyboard */; };
+		006458DB24C1A75400F87A31 /* MKDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064588424C1A75300F87A31 /* MKDeviceInfoController.m */; };
+		006458DC24C1A75400F87A31 /* MKDeviceInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064588624C1A75300F87A31 /* MKDeviceInfoModel.m */; };
+		006458DD24C1A75400F87A31 /* MKMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064588A24C1A75300F87A31 /* MKMainTabBarController.m */; };
+		006458DE24C1A75400F87A31 /* MKSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064588F24C1A75300F87A31 /* MKSettingController.m */; };
+		006458DF24C1A75400F87A31 /* MKSwitchStatusCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064589224C1A75300F87A31 /* MKSwitchStatusCellModel.m */; };
+		006458E024C1A75400F87A31 /* MKScannWindowConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064589424C1A75300F87A31 /* MKScannWindowConfigView.m */; };
+		006458E124C1A75400F87A31 /* sensitivityThumbIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064589724C1A75300F87A31 /* sensitivityThumbIcon@2x.png */; };
+		006458E224C1A75400F87A31 /* sensitivityThumbIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064589824C1A75300F87A31 /* sensitivityThumbIcon@3x.png */; };
+		006458E324C1A75400F87A31 /* MKTriggerSenSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064589924C1A75300F87A31 /* MKTriggerSenSlider.m */; };
+		006458E424C1A75400F87A31 /* sensitivityMaxTrackIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064589A24C1A75300F87A31 /* sensitivityMaxTrackIcon@3x.png */; };
+		006458E524C1A75400F87A31 /* sensitivityMaxTrackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064589B24C1A75300F87A31 /* sensitivityMaxTrackIcon@2x.png */; };
+		006458E624C1A75400F87A31 /* sensitivityMinTrackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064589C24C1A75300F87A31 /* sensitivityMinTrackIcon@2x.png */; };
+		006458E724C1A75400F87A31 /* sensitivityMinTrackIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0064589D24C1A75300F87A31 /* sensitivityMinTrackIcon@3x.png */; };
+		006458E824C1A75400F87A31 /* MKSwitchStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064589F24C1A75300F87A31 /* MKSwitchStatusCell.m */; };
+		006458E924C1A75400F87A31 /* MKTriggerSensitivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458A124C1A75300F87A31 /* MKTriggerSensitivityView.m */; };
+		006458EA24C1A75400F87A31 /* MKAdvertiserPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458A524C1A75300F87A31 /* MKAdvertiserPageController.m */; };
+		006458EC24C1A75400F87A31 /* MKAdvertiserNormalCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458AA24C1A75300F87A31 /* MKAdvertiserNormalCellModel.m */; };
+		006458ED24C1A75400F87A31 /* MKAdvIntervalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458B124C1A75300F87A31 /* MKAdvIntervalCell.m */; };
+		006458EE24C1A75400F87A31 /* MKAdvTxPowerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458B324C1A75400F87A31 /* MKAdvTxPowerCell.m */; };
+		006458EF24C1A75400F87A31 /* MKAdvertiserNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458B424C1A75400F87A31 /* MKAdvertiserNormalCell.m */; };
+		006458F024C1A75400F87A31 /* MKAdvTriggerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458B524C1A75400F87A31 /* MKAdvTriggerCell.m */; };
+		006458F224C1A75400F87A31 /* MKScannerPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458B924C1A75400F87A31 /* MKScannerPageController.m */; };
+		006458FD24C1A75400F87A31 /* MKTrackedDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458CE24C1A75400F87A31 /* MKTrackedDataCell.m */; };
+		006458FE24C1A75400F87A31 /* MKScannerSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458D224C1A75400F87A31 /* MKScannerSliderCell.m */; };
+		0064590024C1A75400F87A31 /* MKTrackingNotifiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 006458DA24C1A75400F87A31 /* MKTrackingNotifiCell.m */; };
+		0064590324C1BF0E00F87A31 /* MKAdvertiserDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064590124C1BF0E00F87A31 /* MKAdvertiserDataModel.m */; };
+		0098BEF424D3CB5800D8899F /* MKSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098BEF324D3CB5800D8899F /* MKSettingTableViewCell.m */; };
+		0098BEFA24D4001D00D8899F /* MKCDOptionsCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098BEF924D4001D00D8899F /* MKCDOptionsCellModel.m */; };
+		0098BEFD24D4004F00D8899F /* MKCDOptionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098BEFB24D4004F00D8899F /* MKCDOptionsCell.m */; };
+		E6D0128B060D96AC4AA63276 /* Pods_MKLoRaTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B4C440F8A2DD11391C1C11 /* Pods_MKLoRaTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005305BA251D8FB600099E3E /* MKVibIntenSityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKVibIntenSityCell.h; sourceTree = "<group>"; };
+		005305BB251D8FB600099E3E /* MKVibIntenSityCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKVibIntenSityCell.m; sourceTree = "<group>"; };
+		005305BE251D935000099E3E /* MKVibrationInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKVibrationInfoCell.h; sourceTree = "<group>"; };
+		005305BF251D935000099E3E /* MKVibrationInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKVibrationInfoCell.m; sourceTree = "<group>"; };
+		0055FA4324C2916400DCC058 /* MKScannerDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScannerDataModel.h; sourceTree = "<group>"; };
+		0055FA4424C2916400DCC058 /* MKScannerDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScannerDataModel.m; sourceTree = "<group>"; };
+		0055FA4624C2985400DCC058 /* MKAlarmTriggerRssiCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAlarmTriggerRssiCell.h; sourceTree = "<group>"; };
+		0055FA4724C2985400DCC058 /* MKAlarmTriggerRssiCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAlarmTriggerRssiCell.m; sourceTree = "<group>"; };
+		0055FA4D24C2DA4700DCC058 /* MKLoRaSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKLoRaSettingController.h; sourceTree = "<group>"; };
+		0055FA4E24C2DA4700DCC058 /* MKLoRaSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKLoRaSettingController.m; sourceTree = "<group>"; };
+		0055FA5024C2DD5000DCC058 /* MKDeviceSettingTextCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceSettingTextCellModel.h; sourceTree = "<group>"; };
+		0055FA5124C2DD5000DCC058 /* MKDeviceSettingTextCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceSettingTextCellModel.m; sourceTree = "<group>"; };
+		0055FA5324C2DD8A00DCC058 /* MKDeviceSettingBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceSettingBaseCell.h; sourceTree = "<group>"; };
+		0055FA5424C2DD8A00DCC058 /* MKDeviceSettingTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceSettingTextCell.h; sourceTree = "<group>"; };
+		0055FA5524C2DD8A00DCC058 /* MKDeviceSettingTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceSettingTextCell.m; sourceTree = "<group>"; };
+		0055FA5624C2DD8A00DCC058 /* MKDeviceSettingBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceSettingBaseCell.m; sourceTree = "<group>"; };
+		0055FA6124C2DEED00DCC058 /* MKDeviceSettingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceSettingProtocol.h; sourceTree = "<group>"; };
+		0055FA6224C2E76B00DCC058 /* MKDeviceSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceSettingModel.h; sourceTree = "<group>"; };
+		0055FA6324C2E76B00DCC058 /* MKDeviceSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceSettingModel.m; sourceTree = "<group>"; };
+		0055FA6524C2EF6700DCC058 /* MKRegionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKRegionCell.m; sourceTree = "<group>"; };
+		0055FA6624C2EF6700DCC058 /* MKRegionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKRegionCell.h; sourceTree = "<group>"; };
+		0055FA6B24C2F12F00DCC058 /* MKMessageTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMessageTypeCell.h; sourceTree = "<group>"; };
+		0055FA6C24C2F12F00DCC058 /* MKMessageTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMessageTypeCell.m; sourceTree = "<group>"; };
+		0055FA6E24C2F4AC00DCC058 /* MKIntervalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKIntervalCell.m; sourceTree = "<group>"; };
+		0055FA6F24C2F4AC00DCC058 /* MKIntervalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKIntervalCell.h; sourceTree = "<group>"; };
+		005B2BDB24C80F8B008BDB27 /* filterRawDataSubIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterRawDataSubIcon@3x.png"; sourceTree = "<group>"; };
+		005B2BDC24C80F8B008BDB27 /* filterRawDataAddIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterRawDataAddIcon@2x.png"; sourceTree = "<group>"; };
+		005B2BDD24C80F8C008BDB27 /* filterRawDataSubIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterRawDataSubIcon@2x.png"; sourceTree = "<group>"; };
+		005B2BDE24C80F8C008BDB27 /* filterRawDataAddIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterRawDataAddIcon@3x.png"; sourceTree = "<group>"; };
+		005B2BF024C816F2008BDB27 /* MKFilterOptionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKFilterOptionsController.h; sourceTree = "<group>"; };
+		005B2BF124C816F2008BDB27 /* MKFilterOptionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKFilterOptionsController.m; sourceTree = "<group>"; };
+		005B2BF324C818C0008BDB27 /* MKFilterRawOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterRawOptionsView.m; sourceTree = "<group>"; };
+		005B2BF424C818C0008BDB27 /* MKFilterOptionsHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterOptionsHeaderView.h; sourceTree = "<group>"; };
+		005B2BF524C818C0008BDB27 /* MKFilterOptionsHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterOptionsHeaderView.m; sourceTree = "<group>"; };
+		005B2BF624C818C0008BDB27 /* MKFilterRawOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterRawOptionsView.h; sourceTree = "<group>"; };
+		005B2BF924C81951008BDB27 /* MKFilterRawDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterRawDataCell.h; sourceTree = "<group>"; };
+		005B2BFA24C81952008BDB27 /* MKFilterRawDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterRawDataCell.m; sourceTree = "<group>"; };
+		005B2BFC24C81979008BDB27 /* MKAdvDataFliterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvDataFliterCell.h; sourceTree = "<group>"; };
+		005B2BFD24C81979008BDB27 /* MKAdvDataFliterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvDataFliterCell.m; sourceTree = "<group>"; };
+		005B2BFF24C8199F008BDB27 /* MKFilterMajorMinorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterMajorMinorCell.m; sourceTree = "<group>"; };
+		005B2C0024C8199F008BDB27 /* MKFilterMajorMinorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterMajorMinorCell.h; sourceTree = "<group>"; };
+		005B2C0224C81A60008BDB27 /* MKAdvDataFliterCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvDataFliterCellModel.h; sourceTree = "<group>"; };
+		005B2C0324C81A60008BDB27 /* MKAdvDataFliterCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvDataFliterCellModel.m; sourceTree = "<group>"; };
+		005B2C0424C81A60008BDB27 /* MKFilterRawDataCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterRawDataCellModel.m; sourceTree = "<group>"; };
+		005B2C0524C81A60008BDB27 /* MKFilterMajorMinorCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterMajorMinorCellModel.m; sourceTree = "<group>"; };
+		005B2C0624C81A60008BDB27 /* MKFilterRawDataCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterRawDataCellModel.h; sourceTree = "<group>"; };
+		005B2C0724C81A61008BDB27 /* MKFilterOptionsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterOptionsModel.h; sourceTree = "<group>"; };
+		005B2C0824C81A61008BDB27 /* MKFilterOptionsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFilterOptionsModel.m; sourceTree = "<group>"; };
+		005B2C0924C81A61008BDB27 /* MKFilterMajorMinorCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFilterMajorMinorCellModel.h; sourceTree = "<group>"; };
+		005B2C1024C86533008BDB27 /* aboutBottomIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutBottomIcon@2x.png"; sourceTree = "<group>"; };
+		005B2C1124C86533008BDB27 /* aboutBottomIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutBottomIcon@3x.png"; sourceTree = "<group>"; };
+		006455E124C13ACA00F87A31 /* LoRa Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoRa Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		006455E424C13ACA00F87A31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		006455E524C13ACA00F87A31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		006455F024C13ACC00F87A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		006455F524C13ACC00F87A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006455F624C13ACC00F87A31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		006455FD24C13E2200F87A31 /* MKLoRaTracker.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKLoRaTracker.pch; sourceTree = "<group>"; };
+		006455FF24C13E7A00F87A31 /* batteryLower@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryLower@3x.png"; sourceTree = "<group>"; };
+		0064560024C13E7A00F87A31 /* wifisignalIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifisignalIcon@2x.png"; sourceTree = "<group>"; };
+		0064560124C13E7A00F87A31 /* cellRight_selected_pic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellRight_selected_pic@3x.png"; sourceTree = "<group>"; };
+		0064560224C13E7A00F87A31 /* slot_export_deleteIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_export_deleteIcon@2x.png"; sourceTree = "<group>"; };
+		0064560324C13E7A00F87A31 /* setting_updateFirmwareIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_updateFirmwareIcon@2x.png"; sourceTree = "<group>"; };
+		0064560424C13E7A00F87A31 /* signalIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signalIcon@3x.png"; sourceTree = "<group>"; };
+		0064560524C13E7A00F87A31 /* device_manufacture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_manufacture@2x.png"; sourceTree = "<group>"; };
+		0064560624C13E7A00F87A31 /* settingTabBarItemUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTabBarItemUnselected@2x.png"; sourceTree = "<group>"; };
+		0064560724C13E7A00F87A31 /* setting_reset@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_reset@3x.png"; sourceTree = "<group>"; };
+		0064560824C13E7A00F87A31 /* setting_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_password@2x.png"; sourceTree = "<group>"; };
+		0064560924C13E7A00F87A31 /* advTabBarItemUnselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "advTabBarItemUnselected@3x.png"; sourceTree = "<group>"; };
+		0064560A24C13E7A00F87A31 /* slot_config_humidityIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_config_humidityIcon@3x.png"; sourceTree = "<group>"; };
+		0064560B24C13E7A00F87A31 /* scannerTabBarItemSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scannerTabBarItemSelected@3x.png"; sourceTree = "<group>"; };
+		0064560C24C13E7A00F87A31 /* setting_directed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_directed@3x.png"; sourceTree = "<group>"; };
+		0064560D24C13E7A00F87A31 /* slotDataTypeT&HIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeT&HIcon@2x.png"; sourceTree = "<group>"; };
+		0064560E24C13E7A00F87A31 /* rightAddDisableIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightAddDisableIcon@3x.png"; sourceTree = "<group>"; };
+		0064560F24C13E7A00F87A31 /* searchBlueIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchBlueIcon@3x.png"; sourceTree = "<group>"; };
+		0064561024C13E7A00F87A31 /* setting_devicename@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_devicename@3x.png"; sourceTree = "<group>"; };
+		0064561124C13E7A00F87A31 /* setting_devicename@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_devicename@2x.png"; sourceTree = "<group>"; };
+		0064561224C13E7A00F87A31 /* searchBlueIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchBlueIcon@2x.png"; sourceTree = "<group>"; };
+		0064561324C13E7A00F87A31 /* slotDataTypeT&HIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeT&HIcon@3x.png"; sourceTree = "<group>"; };
+		0064561424C13E7A00F87A31 /* rightAddDisableIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightAddDisableIcon@2x.png"; sourceTree = "<group>"; };
+		0064561524C13E7A00F87A31 /* setting_directed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_directed@2x.png"; sourceTree = "<group>"; };
+		0064561624C13E7A00F87A31 /* scannerTabBarItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scannerTabBarItemSelected@2x.png"; sourceTree = "<group>"; };
+		0064561724C13E7A00F87A31 /* slot_config_humidityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_config_humidityIcon@2x.png"; sourceTree = "<group>"; };
+		0064561824C13E7A00F87A31 /* advTabBarItemUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "advTabBarItemUnselected@2x.png"; sourceTree = "<group>"; };
+		0064561924C13E7A00F87A31 /* setting_reset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_reset@2x.png"; sourceTree = "<group>"; };
+		0064561A24C13E7A00F87A31 /* setting_password@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_password@3x.png"; sourceTree = "<group>"; };
+		0064561B24C13E7A00F87A31 /* settingTabBarItemUnselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTabBarItemUnselected@3x.png"; sourceTree = "<group>"; };
+		0064561C24C13E7A00F87A31 /* signalIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signalIcon@2x.png"; sourceTree = "<group>"; };
+		0064561D24C13E7A00F87A31 /* device_manufacture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_manufacture@3x.png"; sourceTree = "<group>"; };
+		0064561E24C13E7A00F87A31 /* slot_export_deleteIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_export_deleteIcon@3x.png"; sourceTree = "<group>"; };
+		0064561F24C13E7A00F87A31 /* setting_updateFirmwareIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_updateFirmwareIcon@3x.png"; sourceTree = "<group>"; };
+		0064562024C13E7A00F87A31 /* cellRight_selected_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellRight_selected_pic@2x.png"; sourceTree = "<group>"; };
+		0064562124C13E7A00F87A31 /* wifisignalIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifisignalIcon@3x.png"; sourceTree = "<group>"; };
+		0064562224C13E7A00F87A31 /* batteryLower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryLower@2x.png"; sourceTree = "<group>"; };
+		0064562324C13E7A00F87A31 /* rightIconUnselectedCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightIconUnselectedCircle@3x.png"; sourceTree = "<group>"; };
+		0064562424C13E7A00F87A31 /* slotDataTypeCustom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeCustom@3x.png"; sourceTree = "<group>"; };
+		0064562524C13E7A00F87A31 /* slotTabBarItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotTabBarItemSelected@2x.png"; sourceTree = "<group>"; };
+		0064562624C13E7A00F87A31 /* slot_frameType@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_frameType@2x.png"; sourceTree = "<group>"; };
+		0064562724C13E7A00F87A31 /* scanRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanRefresh@2x.png"; sourceTree = "<group>"; };
+		0064562824C13E7A00F87A31 /* slotDataTypeiBeacon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeiBeacon@3x.png"; sourceTree = "<group>"; };
+		0064562924C13E7A00F87A31 /* slot_htDataSaveIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_htDataSaveIcon@3x.png"; sourceTree = "<group>"; };
+		0064562A24C13E7A00F87A31 /* batteryHigher@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryHigher@2x.png"; sourceTree = "<group>"; };
+		0064562B24C13E7A00F87A31 /* slot_advContent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_advContent@3x.png"; sourceTree = "<group>"; };
+		0064562C24C13E7A00F87A31 /* slot_baseParams@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_baseParams@2x.png"; sourceTree = "<group>"; };
+		0064562D24C13E7A00F87A31 /* deviceTabBarItemSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceTabBarItemSelected@3x.png"; sourceTree = "<group>"; };
+		0064562E24C13E7A00F87A31 /* device_software@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_software@2x.png"; sourceTree = "<group>"; };
+		0064562F24C13E7A00F87A31 /* slotDataTypeThreeAccelerometerIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeThreeAccelerometerIcon@3x.png"; sourceTree = "<group>"; };
+		0064563024C13E7A00F87A31 /* scanHeaderView_ arrowDownIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanHeaderView_ arrowDownIcon@3x.png"; sourceTree = "<group>"; };
+		0064563124C13E7A00F87A31 /* slotInfoTypeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotInfoTypeIcon@2x.png"; sourceTree = "<group>"; };
+		0064563224C13E7A00F87A31 /* slotDataTypeNoData@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeNoData@2x.png"; sourceTree = "<group>"; };
+		0064563324C13E7A00F87A31 /* searchGrayIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchGrayIcon@3x.png"; sourceTree = "<group>"; };
+		0064563424C13E7A00F87A31 /* goto_next_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goto_next_button@3x.png"; sourceTree = "<group>"; };
+		0064563524C13E7A00F87A31 /* goto_next_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goto_next_button@2x.png"; sourceTree = "<group>"; };
+		0064563624C13E7A00F87A31 /* searchGrayIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchGrayIcon@2x.png"; sourceTree = "<group>"; };
+		0064563724C13E7A00F87A31 /* scanHeaderView_ arrowDownIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanHeaderView_ arrowDownIcon@2x.png"; sourceTree = "<group>"; };
+		0064563824C13E7A00F87A31 /* slotDataTypeNoData@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeNoData@3x.png"; sourceTree = "<group>"; };
+		0064563924C13E7A00F87A31 /* slotInfoTypeIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotInfoTypeIcon@3x.png"; sourceTree = "<group>"; };
+		0064563A24C13E7A00F87A31 /* slotDataTypeThreeAccelerometerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeThreeAccelerometerIcon@2x.png"; sourceTree = "<group>"; };
+		0064563B24C13E7A00F87A31 /* deviceTabBarItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceTabBarItemSelected@2x.png"; sourceTree = "<group>"; };
+		0064563C24C13E7A00F87A31 /* device_software@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_software@3x.png"; sourceTree = "<group>"; };
+		0064563D24C13E7A00F87A31 /* slot_baseParams@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_baseParams@3x.png"; sourceTree = "<group>"; };
+		0064563E24C13E7A00F87A31 /* slot_advContent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_advContent@2x.png"; sourceTree = "<group>"; };
+		0064563F24C13E7A00F87A31 /* batteryHigher@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryHigher@3x.png"; sourceTree = "<group>"; };
+		0064564024C13E7A00F87A31 /* slot_htDataSaveIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_htDataSaveIcon@2x.png"; sourceTree = "<group>"; };
+		0064564124C13E7A00F87A31 /* slotDataTypeiBeacon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeiBeacon@2x.png"; sourceTree = "<group>"; };
+		0064564224C13E7A00F87A31 /* scanRefresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanRefresh@3x.png"; sourceTree = "<group>"; };
+		0064564324C13E7A00F87A31 /* slotDataTypeCustom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeCustom@2x.png"; sourceTree = "<group>"; };
+		0064564424C13E7A00F87A31 /* slotTabBarItemSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotTabBarItemSelected@3x.png"; sourceTree = "<group>"; };
+		0064564524C13E7A00F87A31 /* slot_frameType@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_frameType@3x.png"; sourceTree = "<group>"; };
+		0064564624C13E7A00F87A31 /* rightIconUnselectedCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightIconUnselectedCircle@2x.png"; sourceTree = "<group>"; };
+		0064564724C13E7A00F87A31 /* slot_baseParams_advertising@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_baseParams_advertising@3x.png"; sourceTree = "<group>"; };
+		0064564824C13E7A00F87A31 /* device_runningtime@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_runningtime@2x.png"; sourceTree = "<group>"; };
+		0064564924C13E7A00F87A31 /* advTabBarItemSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "advTabBarItemSelected@3x.png"; sourceTree = "<group>"; };
+		0064564A24C13E7A00F87A31 /* slotDataTypeH&TIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeH&TIcon@2x.png"; sourceTree = "<group>"; };
+		0064564B24C13E7A00F87A31 /* clearButtonIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clearButtonIcon@3x.png"; sourceTree = "<group>"; };
+		0064564C24C13E7A00F87A31 /* goNext_whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goNext_whiteButton@2x.png"; sourceTree = "<group>"; };
+		0064564D24C13E7A00F87A31 /* refreshIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refreshIcon@2x.png"; sourceTree = "<group>"; };
+		0064564E24C13E7A00F87A31 /* device_soc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_soc@2x.png"; sourceTree = "<group>"; };
+		0064564F24C13E7A00F87A31 /* slot_paramsConfig_unselectedIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_paramsConfig_unselectedIcon@3x.png"; sourceTree = "<group>"; };
+		0064565024C13E7A00F87A31 /* littleBluePoint@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "littleBluePoint@3x.png"; sourceTree = "<group>"; };
+		0064565124C13E7A00F87A31 /* batteryHighest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryHighest@2x.png"; sourceTree = "<group>"; };
+		0064565224C13E7A00F87A31 /* device_hardware@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_hardware@3x.png"; sourceTree = "<group>"; };
+		0064565324C13E7A00F87A31 /* slot_export_disableIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_export_disableIcon@2x.png"; sourceTree = "<group>"; };
+		0064565424C13E7A00F87A31 /* slot_export_enableIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_export_enableIcon@2x.png"; sourceTree = "<group>"; };
+		0064565524C13E7A00F87A31 /* scanHeaderViewBackIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanHeaderViewBackIcon@3x.png"; sourceTree = "<group>"; };
+		0064565624C13E7A00F87A31 /* setting_connectable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_connectable@3x.png"; sourceTree = "<group>"; };
+		0064565724C13E7A00F87A31 /* batteryLowest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryLowest@2x.png"; sourceTree = "<group>"; };
+		0064565824C13E7A00F87A31 /* device_productmodel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_productmodel@2x.png"; sourceTree = "<group>"; };
+		0064565924C13E7A00F87A31 /* slot_params_triggerIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_params_triggerIcon@3x.png"; sourceTree = "<group>"; };
+		0064565A24C13E7A00F87A31 /* batteryLow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryLow@3x.png"; sourceTree = "<group>"; };
+		0064565B24C13E7A00F87A31 /* settingTabBarItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTabBarItemSelected@2x.png"; sourceTree = "<group>"; };
+		0064565C24C13E7A00F87A31 /* settingTabBarItemSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTabBarItemSelected@3x.png"; sourceTree = "<group>"; };
+		0064565D24C13E7A00F87A31 /* batteryLow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryLow@2x.png"; sourceTree = "<group>"; };
+		0064565E24C13E7A00F87A31 /* slot_params_triggerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_params_triggerIcon@2x.png"; sourceTree = "<group>"; };
+		0064565F24C13E7A00F87A31 /* device_productmodel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_productmodel@3x.png"; sourceTree = "<group>"; };
+		0064566024C13E7A00F87A31 /* batteryLowest@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryLowest@3x.png"; sourceTree = "<group>"; };
+		0064566124C13E7A00F87A31 /* setting_connectable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_connectable@2x.png"; sourceTree = "<group>"; };
+		0064566224C13E7A00F87A31 /* slot_export_disableIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_export_disableIcon@3x.png"; sourceTree = "<group>"; };
+		0064566324C13E7A00F87A31 /* slot_export_enableIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_export_enableIcon@3x.png"; sourceTree = "<group>"; };
+		0064566424C13E7A00F87A31 /* scanHeaderViewBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanHeaderViewBackIcon@2x.png"; sourceTree = "<group>"; };
+		0064566524C13E7A00F87A31 /* device_hardware@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_hardware@2x.png"; sourceTree = "<group>"; };
+		0064566624C13E7A00F87A31 /* batteryHighest@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batteryHighest@3x.png"; sourceTree = "<group>"; };
+		0064566724C13E7A00F87A31 /* slot_paramsConfig_unselectedIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_paramsConfig_unselectedIcon@2x.png"; sourceTree = "<group>"; };
+		0064566824C13E7A00F87A31 /* littleBluePoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "littleBluePoint@2x.png"; sourceTree = "<group>"; };
+		0064566924C13E7A00F87A31 /* refreshIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refreshIcon@3x.png"; sourceTree = "<group>"; };
+		0064566A24C13E7A00F87A31 /* device_soc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_soc@3x.png"; sourceTree = "<group>"; };
+		0064566B24C13E7A00F87A31 /* clearButtonIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clearButtonIcon@2x.png"; sourceTree = "<group>"; };
+		0064566C24C13E7A00F87A31 /* goNext_whiteButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goNext_whiteButton@3x.png"; sourceTree = "<group>"; };
+		0064566D24C13E7A00F87A31 /* slotDataTypeH&TIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotDataTypeH&TIcon@3x.png"; sourceTree = "<group>"; };
+		0064566E24C13E7A00F87A31 /* advTabBarItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "advTabBarItemSelected@2x.png"; sourceTree = "<group>"; };
+		0064566F24C13E7A00F87A31 /* device_runningtime@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_runningtime@3x.png"; sourceTree = "<group>"; };
+		0064567024C13E7A00F87A31 /* slot_baseParams_advertising@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_baseParams_advertising@2x.png"; sourceTree = "<group>"; };
+		0064567124C13E7A00F87A31 /* slot_htUpdateTimeIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_htUpdateTimeIcon@3x.png"; sourceTree = "<group>"; };
+		0064567224C13E7A00F87A31 /* navigation_back_button_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_back_button_white@3x.png"; sourceTree = "<group>"; };
+		0064567324C13E7A00F87A31 /* slot_paramsConfig_selectedIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_paramsConfig_selectedIcon@2x.png"; sourceTree = "<group>"; };
+		0064567424C13E7A00F87A31 /* rightAddEnableIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightAddEnableIcon@3x.png"; sourceTree = "<group>"; };
+		0064567524C13E7A00F87A31 /* scanRightAboutIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanRightAboutIcon@3x.png"; sourceTree = "<group>"; };
+		0064567624C13E7A00F87A31 /* device_firmware@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_firmware@2x.png"; sourceTree = "<group>"; };
+		0064567724C13E7A00F87A31 /* rightIconSelectedCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightIconSelectedCircle@3x.png"; sourceTree = "<group>"; };
+		0064567824C13E7A00F87A31 /* device_macadress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_macadress@3x.png"; sourceTree = "<group>"; };
+		0064567924C13E7A00F87A31 /* slotTabBarItemUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotTabBarItemUnselected@2x.png"; sourceTree = "<group>"; };
+		0064567A24C13E7A00F87A31 /* aboutIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutIcon@2x.png"; sourceTree = "<group>"; };
+		0064567B24C13E7A00F87A31 /* scanHeaderView_ arrowUpIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanHeaderView_ arrowUpIcon@2x.png"; sourceTree = "<group>"; };
+		0064567C24C13E7A00F87A31 /* scannerTabBarItemUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scannerTabBarItemUnselected@2x.png"; sourceTree = "<group>"; };
+		0064567D24C13E7A00F87A31 /* goNext_lightWhiteButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goNext_lightWhiteButton@3x.png"; sourceTree = "<group>"; };
+		0064567E24C13E7A00F87A31 /* setting_update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_update@2x.png"; sourceTree = "<group>"; };
+		0064567F24C13E7A00F87A31 /* slot_config_temperatureIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_config_temperatureIcon@3x.png"; sourceTree = "<group>"; };
+		0064568024C13E7A00F87A31 /* navigation_back_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_back_button@3x.png"; sourceTree = "<group>"; };
+		0064568124C13E7A00F87A31 /* threeAxisAcceLoadingIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "threeAxisAcceLoadingIcon@3x.png"; sourceTree = "<group>"; };
+		0064568224C13E7A00F87A31 /* deviceTabBarItemUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceTabBarItemUnselected@2x.png"; sourceTree = "<group>"; };
+		0064568324C13E7A00F87A31 /* slot_htParamsConfig_saveIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_htParamsConfig_saveIcon@3x.png"; sourceTree = "<group>"; };
+		0064568424C13E7A00F87A31 /* setting_powerOff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_powerOff@3x.png"; sourceTree = "<group>"; };
+		0064568524C13E7A00F87A31 /* slotSaveIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotSaveIcon@3x.png"; sourceTree = "<group>"; };
+		0064568624C13E7A00F87A31 /* slotSaveIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotSaveIcon@2x.png"; sourceTree = "<group>"; };
+		0064568724C13E7A00F87A31 /* setting_powerOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_powerOff@2x.png"; sourceTree = "<group>"; };
+		0064568824C13E7A00F87A31 /* slot_htParamsConfig_saveIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_htParamsConfig_saveIcon@2x.png"; sourceTree = "<group>"; };
+		0064568924C13E7A00F87A31 /* deviceTabBarItemUnselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceTabBarItemUnselected@3x.png"; sourceTree = "<group>"; };
+		0064568A24C13E7A00F87A31 /* threeAxisAcceLoadingIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "threeAxisAcceLoadingIcon@2x.png"; sourceTree = "<group>"; };
+		0064568B24C13E7A00F87A31 /* navigation_back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_back_button@2x.png"; sourceTree = "<group>"; };
+		0064568C24C13E7A00F87A31 /* slot_config_temperatureIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_config_temperatureIcon@2x.png"; sourceTree = "<group>"; };
+		0064568D24C13E7A00F87A31 /* setting_update@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_update@3x.png"; sourceTree = "<group>"; };
+		0064568E24C13E7A00F87A31 /* goNext_lightWhiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goNext_lightWhiteButton@2x.png"; sourceTree = "<group>"; };
+		0064568F24C13E7A00F87A31 /* scannerTabBarItemUnselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scannerTabBarItemUnselected@3x.png"; sourceTree = "<group>"; };
+		0064569024C13E7A00F87A31 /* scanHeaderView_ arrowUpIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanHeaderView_ arrowUpIcon@3x.png"; sourceTree = "<group>"; };
+		0064569124C13E7A00F87A31 /* aboutIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutIcon@3x.png"; sourceTree = "<group>"; };
+		0064569224C13E7A00F87A31 /* slotTabBarItemUnselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotTabBarItemUnselected@3x.png"; sourceTree = "<group>"; };
+		0064569324C13E7A00F87A31 /* device_macadress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_macadress@2x.png"; sourceTree = "<group>"; };
+		0064569424C13E7A00F87A31 /* device_firmware@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_firmware@3x.png"; sourceTree = "<group>"; };
+		0064569524C13E7A00F87A31 /* rightIconSelectedCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightIconSelectedCircle@2x.png"; sourceTree = "<group>"; };
+		0064569624C13E7A00F87A31 /* rightAddEnableIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightAddEnableIcon@2x.png"; sourceTree = "<group>"; };
+		0064569724C13E7A00F87A31 /* scanRightAboutIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanRightAboutIcon@2x.png"; sourceTree = "<group>"; };
+		0064569824C13E7A00F87A31 /* slot_paramsConfig_selectedIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_paramsConfig_selectedIcon@3x.png"; sourceTree = "<group>"; };
+		0064569924C13E7A00F87A31 /* navigation_back_button_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_back_button_white@2x.png"; sourceTree = "<group>"; };
+		0064569A24C13E7A00F87A31 /* slot_htUpdateTimeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot_htUpdateTimeIcon@2x.png"; sourceTree = "<group>"; };
+		0064578124C1456E00F87A31 /* MKTrackerInterface+MKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKTrackerInterface+MKConfig.m"; sourceTree = "<group>"; };
+		0064578224C1456E00F87A31 /* MKTrackerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerInterface.h; sourceTree = "<group>"; };
+		0064578324C1456E00F87A31 /* MKTrackerInterface+MKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKTrackerInterface+MKConfig.h"; sourceTree = "<group>"; };
+		0064578424C1456E00F87A31 /* MKTrackerInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerInterface.m; sourceTree = "<group>"; };
+		0064578624C1456E00F87A31 /* CBPeripheral+MKTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+MKTracker.h"; sourceTree = "<group>"; };
+		0064578724C1456E00F87A31 /* CBPeripheral+MKTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+MKTracker.m"; sourceTree = "<group>"; };
+		0064578924C1456E00F87A31 /* MKTrackerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerModel.m; sourceTree = "<group>"; };
+		0064578A24C1456E00F87A31 /* MKTrackerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerModel.h; sourceTree = "<group>"; };
+		0064578C24C1456E00F87A31 /* MKTrackerOperationDataAdopter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerOperationDataAdopter.m; sourceTree = "<group>"; };
+		0064578D24C1456E00F87A31 /* MKTrackerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerOperation.h; sourceTree = "<group>"; };
+		0064578E24C1456E00F87A31 /* MKTrackerOperationDataAdopter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerOperationDataAdopter.h; sourceTree = "<group>"; };
+		0064578F24C1456E00F87A31 /* MKTrackerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerOperation.m; sourceTree = "<group>"; };
+		0064579024C1456E00F87A31 /* MKContactTrackerSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKContactTrackerSDK.h; sourceTree = "<group>"; };
+		0064579224C1456E00F87A31 /* MKTrackerAdopter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerAdopter.m; sourceTree = "<group>"; };
+		0064579324C1456E00F87A31 /* MKTrackerAdopter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerAdopter.h; sourceTree = "<group>"; };
+		0064579524C1456E00F87A31 /* MKTrackerSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerSDKDefines.h; sourceTree = "<group>"; };
+		0064579624C1456E00F87A31 /* MKTrackerOperationID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerOperationID.h; sourceTree = "<group>"; };
+		0064579824C1456E00F87A31 /* MKTrackerPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerPeripheral.m; sourceTree = "<group>"; };
+		0064579924C1456E00F87A31 /* MKTrackerPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerPeripheral.h; sourceTree = "<group>"; };
+		0064579B24C1456E00F87A31 /* MKTrackerCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackerCentralManager.h; sourceTree = "<group>"; };
+		0064579C24C1456E00F87A31 /* MKTrackerCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackerCentralManager.m; sourceTree = "<group>"; };
+		006457A024C1456E00F87A31 /* MKUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUpdateController.h; sourceTree = "<group>"; };
+		006457A124C1456E00F87A31 /* MKUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUpdateController.m; sourceTree = "<group>"; };
+		006457A324C1456E00F87A31 /* MKFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFileManager.h; sourceTree = "<group>"; };
+		006457A424C1456E00F87A31 /* MKFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFileManager.m; sourceTree = "<group>"; };
+		006457A624C1456E00F87A31 /* MKDFUModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDFUModel.h; sourceTree = "<group>"; };
+		006457A724C1456E00F87A31 /* MKDFUAdopter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDFUAdopter.h; sourceTree = "<group>"; };
+		006457A824C1456E00F87A31 /* MKDFUModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDFUModel.m; sourceTree = "<group>"; };
+		006457A924C1456E00F87A31 /* MKDFUAdopter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDFUAdopter.m; sourceTree = "<group>"; };
+		006457AC24C1456E00F87A31 /* MKDeviceTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceTypeManager.m; sourceTree = "<group>"; };
+		006457AD24C1456E00F87A31 /* MKDeviceTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceTypeManager.h; sourceTree = "<group>"; };
+		006457C724C1456E00F87A31 /* MKAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAboutController.m; sourceTree = "<group>"; };
+		006457C824C1456E00F87A31 /* MKAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAboutController.h; sourceTree = "<group>"; };
+		006457E524C1456E00F87A31 /* MKScanPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScanPageController.h; sourceTree = "<group>"; };
+		006457E624C1456E00F87A31 /* MKScanPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScanPageController.m; sourceTree = "<group>"; };
+		006457E824C1456E00F87A31 /* MKConfigDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKConfigDateModel.h; sourceTree = "<group>"; };
+		006457E924C1456E00F87A31 /* MKTrackerModel+MKScanAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKTrackerModel+MKScanAdd.m"; sourceTree = "<group>"; };
+		006457EA24C1456E00F87A31 /* MKTrackerModel+MKScanAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKTrackerModel+MKScanAdd.h"; sourceTree = "<group>"; };
+		006457EB24C1456E00F87A31 /* MKConfigDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKConfigDateModel.m; sourceTree = "<group>"; };
+		006457ED24C1456E00F87A31 /* MKScanSearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScanSearchButton.h; sourceTree = "<group>"; };
+		006457EE24C1456E00F87A31 /* MKScanSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScanSearchView.m; sourceTree = "<group>"; };
+		006457EF24C1456E00F87A31 /* MKConnectDeviceProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKConnectDeviceProgressView.h; sourceTree = "<group>"; };
+		006457F024C1456E00F87A31 /* MKScanPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScanPageCell.m; sourceTree = "<group>"; };
+		006457F124C1456E00F87A31 /* MKScanSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScanSearchView.h; sourceTree = "<group>"; };
+		006457F224C1456E00F87A31 /* MKScanSearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScanSearchButton.m; sourceTree = "<group>"; };
+		006457F324C1456E00F87A31 /* MKConnectDeviceProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKConnectDeviceProgressView.m; sourceTree = "<group>"; };
+		006457F424C1456E00F87A31 /* MKScanPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScanPageCell.h; sourceTree = "<group>"; };
+		0064582824C1456F00F87A31 /* sliderMaximumTrackImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMaximumTrackImage@3x.png"; sourceTree = "<group>"; };
+		0064582924C1456F00F87A31 /* sliderThumbIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderThumbIcon@3x.png"; sourceTree = "<group>"; };
+		0064582A24C1456F00F87A31 /* sliderThumbIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderThumbIcon@2x.png"; sourceTree = "<group>"; };
+		0064582B24C1456F00F87A31 /* sliderMaximumTrackImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMaximumTrackImage@2x.png"; sourceTree = "<group>"; };
+		0064582C24C1456F00F87A31 /* MKSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSlider.m; sourceTree = "<group>"; };
+		0064582D24C1456F00F87A31 /* sliderMinimumTrackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMinimumTrackIcon@2x.png"; sourceTree = "<group>"; };
+		0064582E24C1456F00F87A31 /* sliderMinimumTrackIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMinimumTrackIcon@3x.png"; sourceTree = "<group>"; };
+		0064582F24C1456F00F87A31 /* MKSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSlider.h; sourceTree = "<group>"; };
+		0064583424C1456F00F87A31 /* MKContactTrackerTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKContactTrackerTextCell.m; sourceTree = "<group>"; };
+		0064583624C1456F00F87A31 /* MKContactTrackerTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKContactTrackerTextCell.h; sourceTree = "<group>"; };
+		0064587F24C1485500F87A31 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0064588324C1A75300F87A31 /* MKDeviceInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceInfoController.h; sourceTree = "<group>"; };
+		0064588424C1A75300F87A31 /* MKDeviceInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceInfoController.m; sourceTree = "<group>"; };
+		0064588624C1A75300F87A31 /* MKDeviceInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceInfoModel.m; sourceTree = "<group>"; };
+		0064588724C1A75300F87A31 /* MKDeviceInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceInfoModel.h; sourceTree = "<group>"; };
+		0064588A24C1A75300F87A31 /* MKMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMainTabBarController.m; sourceTree = "<group>"; };
+		0064588B24C1A75300F87A31 /* MKMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMainTabBarController.h; sourceTree = "<group>"; };
+		0064588E24C1A75300F87A31 /* MKSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSettingController.h; sourceTree = "<group>"; };
+		0064588F24C1A75300F87A31 /* MKSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSettingController.m; sourceTree = "<group>"; };
+		0064589124C1A75300F87A31 /* MKSwitchStatusCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSwitchStatusCellModel.h; sourceTree = "<group>"; };
+		0064589224C1A75300F87A31 /* MKSwitchStatusCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSwitchStatusCellModel.m; sourceTree = "<group>"; };
+		0064589424C1A75300F87A31 /* MKScannWindowConfigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScannWindowConfigView.m; sourceTree = "<group>"; };
+		0064589524C1A75300F87A31 /* MKTriggerSensitivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTriggerSensitivityView.h; sourceTree = "<group>"; };
+		0064589724C1A75300F87A31 /* sensitivityThumbIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensitivityThumbIcon@2x.png"; sourceTree = "<group>"; };
+		0064589824C1A75300F87A31 /* sensitivityThumbIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensitivityThumbIcon@3x.png"; sourceTree = "<group>"; };
+		0064589924C1A75300F87A31 /* MKTriggerSenSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTriggerSenSlider.m; sourceTree = "<group>"; };
+		0064589A24C1A75300F87A31 /* sensitivityMaxTrackIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensitivityMaxTrackIcon@3x.png"; sourceTree = "<group>"; };
+		0064589B24C1A75300F87A31 /* sensitivityMaxTrackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensitivityMaxTrackIcon@2x.png"; sourceTree = "<group>"; };
+		0064589C24C1A75300F87A31 /* sensitivityMinTrackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensitivityMinTrackIcon@2x.png"; sourceTree = "<group>"; };
+		0064589D24C1A75300F87A31 /* sensitivityMinTrackIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensitivityMinTrackIcon@3x.png"; sourceTree = "<group>"; };
+		0064589E24C1A75300F87A31 /* MKTriggerSenSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTriggerSenSlider.h; sourceTree = "<group>"; };
+		0064589F24C1A75300F87A31 /* MKSwitchStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSwitchStatusCell.m; sourceTree = "<group>"; };
+		006458A024C1A75300F87A31 /* MKScannWindowConfigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScannWindowConfigView.h; sourceTree = "<group>"; };
+		006458A124C1A75300F87A31 /* MKTriggerSensitivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTriggerSensitivityView.m; sourceTree = "<group>"; };
+		006458A224C1A75300F87A31 /* MKSwitchStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSwitchStatusCell.h; sourceTree = "<group>"; };
+		006458A524C1A75300F87A31 /* MKAdvertiserPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvertiserPageController.m; sourceTree = "<group>"; };
+		006458A624C1A75300F87A31 /* MKAdvertiserPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvertiserPageController.h; sourceTree = "<group>"; };
+		006458A824C1A75300F87A31 /* MKAdvertiserNormalCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvertiserNormalCellModel.h; sourceTree = "<group>"; };
+		006458AA24C1A75300F87A31 /* MKAdvertiserNormalCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvertiserNormalCellModel.m; sourceTree = "<group>"; };
+		006458AD24C1A75300F87A31 /* MKAdvIntervalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvIntervalCell.h; sourceTree = "<group>"; };
+		006458AE24C1A75300F87A31 /* MKAdvTxPowerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvTxPowerCell.h; sourceTree = "<group>"; };
+		006458AF24C1A75300F87A31 /* MKAdvTriggerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvTriggerCell.h; sourceTree = "<group>"; };
+		006458B024C1A75300F87A31 /* MKAdvertiserNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvertiserNormalCell.h; sourceTree = "<group>"; };
+		006458B124C1A75300F87A31 /* MKAdvIntervalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvIntervalCell.m; sourceTree = "<group>"; };
+		006458B224C1A75400F87A31 /* MKAdvertiserCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvertiserCellProtocol.h; sourceTree = "<group>"; };
+		006458B324C1A75400F87A31 /* MKAdvTxPowerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvTxPowerCell.m; sourceTree = "<group>"; };
+		006458B424C1A75400F87A31 /* MKAdvertiserNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvertiserNormalCell.m; sourceTree = "<group>"; };
+		006458B524C1A75400F87A31 /* MKAdvTriggerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvTriggerCell.m; sourceTree = "<group>"; };
+		006458B924C1A75400F87A31 /* MKScannerPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScannerPageController.m; sourceTree = "<group>"; };
+		006458BD24C1A75400F87A31 /* MKScannerPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScannerPageController.h; sourceTree = "<group>"; };
+		006458CA24C1A75400F87A31 /* MKScannerSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScannerSliderCell.h; sourceTree = "<group>"; };
+		006458CE24C1A75400F87A31 /* MKTrackedDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackedDataCell.m; sourceTree = "<group>"; };
+		006458CF24C1A75400F87A31 /* MKTrackingNotifiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackingNotifiCell.h; sourceTree = "<group>"; };
+		006458D224C1A75400F87A31 /* MKScannerSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScannerSliderCell.m; sourceTree = "<group>"; };
+		006458D724C1A75400F87A31 /* MKTrackedDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTrackedDataCell.h; sourceTree = "<group>"; };
+		006458D824C1A75400F87A31 /* MKScannerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScannerProtocol.h; sourceTree = "<group>"; };
+		006458DA24C1A75400F87A31 /* MKTrackingNotifiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTrackingNotifiCell.m; sourceTree = "<group>"; };
+		0064590124C1BF0E00F87A31 /* MKAdvertiserDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdvertiserDataModel.m; sourceTree = "<group>"; };
+		0064590224C1BF0E00F87A31 /* MKAdvertiserDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdvertiserDataModel.h; sourceTree = "<group>"; };
+		0098BEF224D3CB5800D8899F /* MKSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKSettingTableViewCell.h; sourceTree = "<group>"; };
+		0098BEF324D3CB5800D8899F /* MKSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKSettingTableViewCell.m; sourceTree = "<group>"; };
+		0098BEF824D4001C00D8899F /* MKCDOptionsCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCDOptionsCellModel.h; sourceTree = "<group>"; };
+		0098BEF924D4001D00D8899F /* MKCDOptionsCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCDOptionsCellModel.m; sourceTree = "<group>"; };
+		0098BEFB24D4004F00D8899F /* MKCDOptionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCDOptionsCell.m; sourceTree = "<group>"; };
+		0098BEFC24D4004F00D8899F /* MKCDOptionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCDOptionsCell.h; sourceTree = "<group>"; };
+		4AF5C38B5F711A6A243F8A8C /* Pods-MKLoRaTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKLoRaTracker.release.xcconfig"; path = "Target Support Files/Pods-MKLoRaTracker/Pods-MKLoRaTracker.release.xcconfig"; sourceTree = "<group>"; };
+		7D1E16A014090734C93FC151 /* Pods-MKLoRaTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKLoRaTracker.debug.xcconfig"; path = "Target Support Files/Pods-MKLoRaTracker/Pods-MKLoRaTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		95B4C440F8A2DD11391C1C11 /* Pods_MKLoRaTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKLoRaTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B269A7C445D1A5748BA87C27 /* Pods-MKLoRaTracker.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKLoRaTracker.adhoc.xcconfig"; path = "Target Support Files/Pods-MKLoRaTracker/Pods-MKLoRaTracker.adhoc.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006455DE24C13ACA00F87A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D0128B060D96AC4AA63276 /* Pods_MKLoRaTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0055FA4924C2DA3300DCC058 /* LoRaSettingPage */ = {
+			isa = PBXGroup;
+			children = (
+				0055FA4A24C2DA3300DCC058 /* Controller */,
+				0055FA4B24C2DA3300DCC058 /* Model */,
+				0055FA4C24C2DA3300DCC058 /* View */,
+			);
+			path = LoRaSettingPage;
+			sourceTree = "<group>";
+		};
+		0055FA4A24C2DA3300DCC058 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0055FA4D24C2DA4700DCC058 /* MKLoRaSettingController.h */,
+				0055FA4E24C2DA4700DCC058 /* MKLoRaSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0055FA4B24C2DA3300DCC058 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0098BEF824D4001C00D8899F /* MKCDOptionsCellModel.h */,
+				0098BEF924D4001D00D8899F /* MKCDOptionsCellModel.m */,
+				0055FA6224C2E76B00DCC058 /* MKDeviceSettingModel.h */,
+				0055FA6324C2E76B00DCC058 /* MKDeviceSettingModel.m */,
+				0055FA5024C2DD5000DCC058 /* MKDeviceSettingTextCellModel.h */,
+				0055FA5124C2DD5000DCC058 /* MKDeviceSettingTextCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0055FA4C24C2DA3300DCC058 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0098BEFC24D4004F00D8899F /* MKCDOptionsCell.h */,
+				0098BEFB24D4004F00D8899F /* MKCDOptionsCell.m */,
+				0055FA6124C2DEED00DCC058 /* MKDeviceSettingProtocol.h */,
+				0055FA5324C2DD8A00DCC058 /* MKDeviceSettingBaseCell.h */,
+				0055FA5624C2DD8A00DCC058 /* MKDeviceSettingBaseCell.m */,
+				0055FA5424C2DD8A00DCC058 /* MKDeviceSettingTextCell.h */,
+				0055FA5524C2DD8A00DCC058 /* MKDeviceSettingTextCell.m */,
+				0055FA6624C2EF6700DCC058 /* MKRegionCell.h */,
+				0055FA6524C2EF6700DCC058 /* MKRegionCell.m */,
+				0055FA6B24C2F12F00DCC058 /* MKMessageTypeCell.h */,
+				0055FA6C24C2F12F00DCC058 /* MKMessageTypeCell.m */,
+				0055FA6F24C2F4AC00DCC058 /* MKIntervalCell.h */,
+				0055FA6E24C2F4AC00DCC058 /* MKIntervalCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		005B2BEC24C815FA008BDB27 /* FilterOptions */ = {
+			isa = PBXGroup;
+			children = (
+				005B2BED24C815FA008BDB27 /* Controller */,
+				005B2BEE24C815FA008BDB27 /* Model */,
+				005B2BEF24C815FA008BDB27 /* View */,
+			);
+			path = FilterOptions;
+			sourceTree = "<group>";
+		};
+		005B2BED24C815FA008BDB27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				005B2BF024C816F2008BDB27 /* MKFilterOptionsController.h */,
+				005B2BF124C816F2008BDB27 /* MKFilterOptionsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		005B2BEE24C815FA008BDB27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				005B2C0724C81A61008BDB27 /* MKFilterOptionsModel.h */,
+				005B2C0824C81A61008BDB27 /* MKFilterOptionsModel.m */,
+				005B2C0224C81A60008BDB27 /* MKAdvDataFliterCellModel.h */,
+				005B2C0324C81A60008BDB27 /* MKAdvDataFliterCellModel.m */,
+				005B2C0924C81A61008BDB27 /* MKFilterMajorMinorCellModel.h */,
+				005B2C0524C81A60008BDB27 /* MKFilterMajorMinorCellModel.m */,
+				005B2C0624C81A60008BDB27 /* MKFilterRawDataCellModel.h */,
+				005B2C0424C81A60008BDB27 /* MKFilterRawDataCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		005B2BEF24C815FA008BDB27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				005B2C0024C8199F008BDB27 /* MKFilterMajorMinorCell.h */,
+				005B2BFF24C8199F008BDB27 /* MKFilterMajorMinorCell.m */,
+				005B2BFC24C81979008BDB27 /* MKAdvDataFliterCell.h */,
+				005B2BFD24C81979008BDB27 /* MKAdvDataFliterCell.m */,
+				005B2BF924C81951008BDB27 /* MKFilterRawDataCell.h */,
+				005B2BFA24C81952008BDB27 /* MKFilterRawDataCell.m */,
+				005B2BF424C818C0008BDB27 /* MKFilterOptionsHeaderView.h */,
+				005B2BF524C818C0008BDB27 /* MKFilterOptionsHeaderView.m */,
+				005B2BF624C818C0008BDB27 /* MKFilterRawOptionsView.h */,
+				005B2BF324C818C0008BDB27 /* MKFilterRawOptionsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		006455D824C13ACA00F87A31 = {
+			isa = PBXGroup;
+			children = (
+				006455E324C13ACA00F87A31 /* MKLoRaTracker */,
+				006455E224C13ACA00F87A31 /* Products */,
+				206275538A211CA8C6A3240D /* Pods */,
+				68BF5C0524B8BC53F439B949 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		006455E224C13ACA00F87A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				006455E124C13ACA00F87A31 /* LoRa Tracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		006455E324C13ACA00F87A31 /* MKLoRaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				0064577F24C1456E00F87A31 /* SDK */,
+				0064582224C1456F00F87A31 /* Expand */,
+				0064579D24C1456E00F87A31 /* Functions */,
+				006455FE24C13E7A00F87A31 /* Resource */,
+				006455E424C13ACA00F87A31 /* AppDelegate.h */,
+				006455E524C13ACA00F87A31 /* AppDelegate.m */,
+				006455F024C13ACC00F87A31 /* Assets.xcassets */,
+				006455F524C13ACC00F87A31 /* Info.plist */,
+				006455F624C13ACC00F87A31 /* main.m */,
+				006455FD24C13E2200F87A31 /* MKLoRaTracker.pch */,
+				0064587F24C1485500F87A31 /* LaunchScreen.storyboard */,
+			);
+			path = MKLoRaTracker;
+			sourceTree = "<group>";
+		};
+		006455FE24C13E7A00F87A31 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				005B2C1024C86533008BDB27 /* aboutBottomIcon@2x.png */,
+				005B2C1124C86533008BDB27 /* aboutBottomIcon@3x.png */,
+				005B2BDC24C80F8B008BDB27 /* filterRawDataAddIcon@2x.png */,
+				005B2BDE24C80F8C008BDB27 /* filterRawDataAddIcon@3x.png */,
+				005B2BDD24C80F8C008BDB27 /* filterRawDataSubIcon@2x.png */,
+				005B2BDB24C80F8B008BDB27 /* filterRawDataSubIcon@3x.png */,
+				006455FF24C13E7A00F87A31 /* batteryLower@3x.png */,
+				0064560024C13E7A00F87A31 /* wifisignalIcon@2x.png */,
+				0064560124C13E7A00F87A31 /* cellRight_selected_pic@3x.png */,
+				0064560224C13E7A00F87A31 /* slot_export_deleteIcon@2x.png */,
+				0064560324C13E7A00F87A31 /* setting_updateFirmwareIcon@2x.png */,
+				0064560424C13E7A00F87A31 /* signalIcon@3x.png */,
+				0064560524C13E7A00F87A31 /* device_manufacture@2x.png */,
+				0064560624C13E7A00F87A31 /* settingTabBarItemUnselected@2x.png */,
+				0064560724C13E7A00F87A31 /* setting_reset@3x.png */,
+				0064560824C13E7A00F87A31 /* setting_password@2x.png */,
+				0064560924C13E7A00F87A31 /* advTabBarItemUnselected@3x.png */,
+				0064560A24C13E7A00F87A31 /* slot_config_humidityIcon@3x.png */,
+				0064560B24C13E7A00F87A31 /* scannerTabBarItemSelected@3x.png */,
+				0064560C24C13E7A00F87A31 /* setting_directed@3x.png */,
+				0064560D24C13E7A00F87A31 /* slotDataTypeT&HIcon@2x.png */,
+				0064560E24C13E7A00F87A31 /* rightAddDisableIcon@3x.png */,
+				0064560F24C13E7A00F87A31 /* searchBlueIcon@3x.png */,
+				0064561024C13E7A00F87A31 /* setting_devicename@3x.png */,
+				0064561124C13E7A00F87A31 /* setting_devicename@2x.png */,
+				0064561224C13E7A00F87A31 /* searchBlueIcon@2x.png */,
+				0064561324C13E7A00F87A31 /* slotDataTypeT&HIcon@3x.png */,
+				0064561424C13E7A00F87A31 /* rightAddDisableIcon@2x.png */,
+				0064561524C13E7A00F87A31 /* setting_directed@2x.png */,
+				0064561624C13E7A00F87A31 /* scannerTabBarItemSelected@2x.png */,
+				0064561724C13E7A00F87A31 /* slot_config_humidityIcon@2x.png */,
+				0064561824C13E7A00F87A31 /* advTabBarItemUnselected@2x.png */,
+				0064561924C13E7A00F87A31 /* setting_reset@2x.png */,
+				0064561A24C13E7A00F87A31 /* setting_password@3x.png */,
+				0064561B24C13E7A00F87A31 /* settingTabBarItemUnselected@3x.png */,
+				0064561C24C13E7A00F87A31 /* signalIcon@2x.png */,
+				0064561D24C13E7A00F87A31 /* device_manufacture@3x.png */,
+				0064561E24C13E7A00F87A31 /* slot_export_deleteIcon@3x.png */,
+				0064561F24C13E7A00F87A31 /* setting_updateFirmwareIcon@3x.png */,
+				0064562024C13E7A00F87A31 /* cellRight_selected_pic@2x.png */,
+				0064562124C13E7A00F87A31 /* wifisignalIcon@3x.png */,
+				0064562224C13E7A00F87A31 /* batteryLower@2x.png */,
+				0064562324C13E7A00F87A31 /* rightIconUnselectedCircle@3x.png */,
+				0064562424C13E7A00F87A31 /* slotDataTypeCustom@3x.png */,
+				0064562524C13E7A00F87A31 /* slotTabBarItemSelected@2x.png */,
+				0064562624C13E7A00F87A31 /* slot_frameType@2x.png */,
+				0064562724C13E7A00F87A31 /* scanRefresh@2x.png */,
+				0064562824C13E7A00F87A31 /* slotDataTypeiBeacon@3x.png */,
+				0064562924C13E7A00F87A31 /* slot_htDataSaveIcon@3x.png */,
+				0064562A24C13E7A00F87A31 /* batteryHigher@2x.png */,
+				0064562B24C13E7A00F87A31 /* slot_advContent@3x.png */,
+				0064562C24C13E7A00F87A31 /* slot_baseParams@2x.png */,
+				0064562D24C13E7A00F87A31 /* deviceTabBarItemSelected@3x.png */,
+				0064562E24C13E7A00F87A31 /* device_software@2x.png */,
+				0064562F24C13E7A00F87A31 /* slotDataTypeThreeAccelerometerIcon@3x.png */,
+				0064563024C13E7A00F87A31 /* scanHeaderView_ arrowDownIcon@3x.png */,
+				0064563124C13E7A00F87A31 /* slotInfoTypeIcon@2x.png */,
+				0064563224C13E7A00F87A31 /* slotDataTypeNoData@2x.png */,
+				0064563324C13E7A00F87A31 /* searchGrayIcon@3x.png */,
+				0064563424C13E7A00F87A31 /* goto_next_button@3x.png */,
+				0064563524C13E7A00F87A31 /* goto_next_button@2x.png */,
+				0064563624C13E7A00F87A31 /* searchGrayIcon@2x.png */,
+				0064563724C13E7A00F87A31 /* scanHeaderView_ arrowDownIcon@2x.png */,
+				0064563824C13E7A00F87A31 /* slotDataTypeNoData@3x.png */,
+				0064563924C13E7A00F87A31 /* slotInfoTypeIcon@3x.png */,
+				0064563A24C13E7A00F87A31 /* slotDataTypeThreeAccelerometerIcon@2x.png */,
+				0064563B24C13E7A00F87A31 /* deviceTabBarItemSelected@2x.png */,
+				0064563C24C13E7A00F87A31 /* device_software@3x.png */,
+				0064563D24C13E7A00F87A31 /* slot_baseParams@3x.png */,
+				0064563E24C13E7A00F87A31 /* slot_advContent@2x.png */,
+				0064563F24C13E7A00F87A31 /* batteryHigher@3x.png */,
+				0064564024C13E7A00F87A31 /* slot_htDataSaveIcon@2x.png */,
+				0064564124C13E7A00F87A31 /* slotDataTypeiBeacon@2x.png */,
+				0064564224C13E7A00F87A31 /* scanRefresh@3x.png */,
+				0064564324C13E7A00F87A31 /* slotDataTypeCustom@2x.png */,
+				0064564424C13E7A00F87A31 /* slotTabBarItemSelected@3x.png */,
+				0064564524C13E7A00F87A31 /* slot_frameType@3x.png */,
+				0064564624C13E7A00F87A31 /* rightIconUnselectedCircle@2x.png */,
+				0064564724C13E7A00F87A31 /* slot_baseParams_advertising@3x.png */,
+				0064564824C13E7A00F87A31 /* device_runningtime@2x.png */,
+				0064564924C13E7A00F87A31 /* advTabBarItemSelected@3x.png */,
+				0064564A24C13E7A00F87A31 /* slotDataTypeH&TIcon@2x.png */,
+				0064564B24C13E7A00F87A31 /* clearButtonIcon@3x.png */,
+				0064564C24C13E7A00F87A31 /* goNext_whiteButton@2x.png */,
+				0064564D24C13E7A00F87A31 /* refreshIcon@2x.png */,
+				0064564E24C13E7A00F87A31 /* device_soc@2x.png */,
+				0064564F24C13E7A00F87A31 /* slot_paramsConfig_unselectedIcon@3x.png */,
+				0064565024C13E7A00F87A31 /* littleBluePoint@3x.png */,
+				0064565124C13E7A00F87A31 /* batteryHighest@2x.png */,
+				0064565224C13E7A00F87A31 /* device_hardware@3x.png */,
+				0064565324C13E7A00F87A31 /* slot_export_disableIcon@2x.png */,
+				0064565424C13E7A00F87A31 /* slot_export_enableIcon@2x.png */,
+				0064565524C13E7A00F87A31 /* scanHeaderViewBackIcon@3x.png */,
+				0064565624C13E7A00F87A31 /* setting_connectable@3x.png */,
+				0064565724C13E7A00F87A31 /* batteryLowest@2x.png */,
+				0064565824C13E7A00F87A31 /* device_productmodel@2x.png */,
+				0064565924C13E7A00F87A31 /* slot_params_triggerIcon@3x.png */,
+				0064565A24C13E7A00F87A31 /* batteryLow@3x.png */,
+				0064565B24C13E7A00F87A31 /* settingTabBarItemSelected@2x.png */,
+				0064565C24C13E7A00F87A31 /* settingTabBarItemSelected@3x.png */,
+				0064565D24C13E7A00F87A31 /* batteryLow@2x.png */,
+				0064565E24C13E7A00F87A31 /* slot_params_triggerIcon@2x.png */,
+				0064565F24C13E7A00F87A31 /* device_productmodel@3x.png */,
+				0064566024C13E7A00F87A31 /* batteryLowest@3x.png */,
+				0064566124C13E7A00F87A31 /* setting_connectable@2x.png */,
+				0064566224C13E7A00F87A31 /* slot_export_disableIcon@3x.png */,
+				0064566324C13E7A00F87A31 /* slot_export_enableIcon@3x.png */,
+				0064566424C13E7A00F87A31 /* scanHeaderViewBackIcon@2x.png */,
+				0064566524C13E7A00F87A31 /* device_hardware@2x.png */,
+				0064566624C13E7A00F87A31 /* batteryHighest@3x.png */,
+				0064566724C13E7A00F87A31 /* slot_paramsConfig_unselectedIcon@2x.png */,
+				0064566824C13E7A00F87A31 /* littleBluePoint@2x.png */,
+				0064566924C13E7A00F87A31 /* refreshIcon@3x.png */,
+				0064566A24C13E7A00F87A31 /* device_soc@3x.png */,
+				0064566B24C13E7A00F87A31 /* clearButtonIcon@2x.png */,
+				0064566C24C13E7A00F87A31 /* goNext_whiteButton@3x.png */,
+				0064566D24C13E7A00F87A31 /* slotDataTypeH&TIcon@3x.png */,
+				0064566E24C13E7A00F87A31 /* advTabBarItemSelected@2x.png */,
+				0064566F24C13E7A00F87A31 /* device_runningtime@3x.png */,
+				0064567024C13E7A00F87A31 /* slot_baseParams_advertising@2x.png */,
+				0064567124C13E7A00F87A31 /* slot_htUpdateTimeIcon@3x.png */,
+				0064567224C13E7A00F87A31 /* navigation_back_button_white@3x.png */,
+				0064567324C13E7A00F87A31 /* slot_paramsConfig_selectedIcon@2x.png */,
+				0064567424C13E7A00F87A31 /* rightAddEnableIcon@3x.png */,
+				0064567524C13E7A00F87A31 /* scanRightAboutIcon@3x.png */,
+				0064567624C13E7A00F87A31 /* device_firmware@2x.png */,
+				0064567724C13E7A00F87A31 /* rightIconSelectedCircle@3x.png */,
+				0064567824C13E7A00F87A31 /* device_macadress@3x.png */,
+				0064567924C13E7A00F87A31 /* slotTabBarItemUnselected@2x.png */,
+				0064567A24C13E7A00F87A31 /* aboutIcon@2x.png */,
+				0064567B24C13E7A00F87A31 /* scanHeaderView_ arrowUpIcon@2x.png */,
+				0064567C24C13E7A00F87A31 /* scannerTabBarItemUnselected@2x.png */,
+				0064567D24C13E7A00F87A31 /* goNext_lightWhiteButton@3x.png */,
+				0064567E24C13E7A00F87A31 /* setting_update@2x.png */,
+				0064567F24C13E7A00F87A31 /* slot_config_temperatureIcon@3x.png */,
+				0064568024C13E7A00F87A31 /* navigation_back_button@3x.png */,
+				0064568124C13E7A00F87A31 /* threeAxisAcceLoadingIcon@3x.png */,
+				0064568224C13E7A00F87A31 /* deviceTabBarItemUnselected@2x.png */,
+				0064568324C13E7A00F87A31 /* slot_htParamsConfig_saveIcon@3x.png */,
+				0064568424C13E7A00F87A31 /* setting_powerOff@3x.png */,
+				0064568524C13E7A00F87A31 /* slotSaveIcon@3x.png */,
+				0064568624C13E7A00F87A31 /* slotSaveIcon@2x.png */,
+				0064568724C13E7A00F87A31 /* setting_powerOff@2x.png */,
+				0064568824C13E7A00F87A31 /* slot_htParamsConfig_saveIcon@2x.png */,
+				0064568924C13E7A00F87A31 /* deviceTabBarItemUnselected@3x.png */,
+				0064568A24C13E7A00F87A31 /* threeAxisAcceLoadingIcon@2x.png */,
+				0064568B24C13E7A00F87A31 /* navigation_back_button@2x.png */,
+				0064568C24C13E7A00F87A31 /* slot_config_temperatureIcon@2x.png */,
+				0064568D24C13E7A00F87A31 /* setting_update@3x.png */,
+				0064568E24C13E7A00F87A31 /* goNext_lightWhiteButton@2x.png */,
+				0064568F24C13E7A00F87A31 /* scannerTabBarItemUnselected@3x.png */,
+				0064569024C13E7A00F87A31 /* scanHeaderView_ arrowUpIcon@3x.png */,
+				0064569124C13E7A00F87A31 /* aboutIcon@3x.png */,
+				0064569224C13E7A00F87A31 /* slotTabBarItemUnselected@3x.png */,
+				0064569324C13E7A00F87A31 /* device_macadress@2x.png */,
+				0064569424C13E7A00F87A31 /* device_firmware@3x.png */,
+				0064569524C13E7A00F87A31 /* rightIconSelectedCircle@2x.png */,
+				0064569624C13E7A00F87A31 /* rightAddEnableIcon@2x.png */,
+				0064569724C13E7A00F87A31 /* scanRightAboutIcon@2x.png */,
+				0064569824C13E7A00F87A31 /* slot_paramsConfig_selectedIcon@3x.png */,
+				0064569924C13E7A00F87A31 /* navigation_back_button_white@2x.png */,
+				0064569A24C13E7A00F87A31 /* slot_htUpdateTimeIcon@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0064577F24C1456E00F87A31 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0064578024C1456E00F87A31 /* interface */,
+				0064578524C1456E00F87A31 /* categore */,
+				0064578824C1456E00F87A31 /* trackerModel */,
+				0064578B24C1456E00F87A31 /* operations */,
+				0064579024C1456E00F87A31 /* MKContactTrackerSDK.h */,
+				0064579124C1456E00F87A31 /* adopter */,
+				0064579424C1456E00F87A31 /* headers */,
+				0064579724C1456E00F87A31 /* peripheral */,
+				0064579A24C1456E00F87A31 /* centralManager */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		0064578024C1456E00F87A31 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				0064578324C1456E00F87A31 /* MKTrackerInterface+MKConfig.h */,
+				0064578124C1456E00F87A31 /* MKTrackerInterface+MKConfig.m */,
+				0064578224C1456E00F87A31 /* MKTrackerInterface.h */,
+				0064578424C1456E00F87A31 /* MKTrackerInterface.m */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		0064578524C1456E00F87A31 /* categore */ = {
+			isa = PBXGroup;
+			children = (
+				0064578624C1456E00F87A31 /* CBPeripheral+MKTracker.h */,
+				0064578724C1456E00F87A31 /* CBPeripheral+MKTracker.m */,
+			);
+			path = categore;
+			sourceTree = "<group>";
+		};
+		0064578824C1456E00F87A31 /* trackerModel */ = {
+			isa = PBXGroup;
+			children = (
+				0064578A24C1456E00F87A31 /* MKTrackerModel.h */,
+				0064578924C1456E00F87A31 /* MKTrackerModel.m */,
+			);
+			path = trackerModel;
+			sourceTree = "<group>";
+		};
+		0064578B24C1456E00F87A31 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				0064578E24C1456E00F87A31 /* MKTrackerOperationDataAdopter.h */,
+				0064578C24C1456E00F87A31 /* MKTrackerOperationDataAdopter.m */,
+				0064578D24C1456E00F87A31 /* MKTrackerOperation.h */,
+				0064578F24C1456E00F87A31 /* MKTrackerOperation.m */,
+			);
+			path = operations;
+			sourceTree = "<group>";
+		};
+		0064579124C1456E00F87A31 /* adopter */ = {
+			isa = PBXGroup;
+			children = (
+				0064579324C1456E00F87A31 /* MKTrackerAdopter.h */,
+				0064579224C1456E00F87A31 /* MKTrackerAdopter.m */,
+			);
+			path = adopter;
+			sourceTree = "<group>";
+		};
+		0064579424C1456E00F87A31 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				0064579624C1456E00F87A31 /* MKTrackerOperationID.h */,
+				0064579524C1456E00F87A31 /* MKTrackerSDKDefines.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		0064579724C1456E00F87A31 /* peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				0064579924C1456E00F87A31 /* MKTrackerPeripheral.h */,
+				0064579824C1456E00F87A31 /* MKTrackerPeripheral.m */,
+			);
+			path = peripheral;
+			sourceTree = "<group>";
+		};
+		0064579A24C1456E00F87A31 /* centralManager */ = {
+			isa = PBXGroup;
+			children = (
+				0064579B24C1456E00F87A31 /* MKTrackerCentralManager.h */,
+				0064579C24C1456E00F87A31 /* MKTrackerCentralManager.m */,
+			);
+			path = centralManager;
+			sourceTree = "<group>";
+		};
+		0064579D24C1456E00F87A31 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				005B2BEC24C815FA008BDB27 /* FilterOptions */,
+				0055FA4924C2DA3300DCC058 /* LoRaSettingPage */,
+				006458A324C1A75300F87A31 /* AdvertiserPage */,
+				0064588124C1A75300F87A31 /* DevicePage */,
+				006458B624C1A75400F87A31 /* ScannerPage */,
+				0064588C24C1A75300F87A31 /* SettingPage */,
+				0064588824C1A75300F87A31 /* TabBarPage */,
+				0064579E24C1456E00F87A31 /* Update */,
+				006457AB24C1456E00F87A31 /* DeviceTypeManager */,
+				006457C524C1456E00F87A31 /* AboutPage */,
+				006457E324C1456E00F87A31 /* ScanPage */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		0064579E24C1456E00F87A31 /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				0064579F24C1456E00F87A31 /* controller */,
+				006457A224C1456E00F87A31 /* manager */,
+				006457A524C1456E00F87A31 /* model */,
+				006457AA24C1456E00F87A31 /* view */,
+			);
+			path = Update;
+			sourceTree = "<group>";
+		};
+		0064579F24C1456E00F87A31 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				006457A024C1456E00F87A31 /* MKUpdateController.h */,
+				006457A124C1456E00F87A31 /* MKUpdateController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		006457A224C1456E00F87A31 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				006457A324C1456E00F87A31 /* MKFileManager.h */,
+				006457A424C1456E00F87A31 /* MKFileManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		006457A524C1456E00F87A31 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				006457A624C1456E00F87A31 /* MKDFUModel.h */,
+				006457A824C1456E00F87A31 /* MKDFUModel.m */,
+				006457A724C1456E00F87A31 /* MKDFUAdopter.h */,
+				006457A924C1456E00F87A31 /* MKDFUAdopter.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		006457AA24C1456E00F87A31 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		006457AB24C1456E00F87A31 /* DeviceTypeManager */ = {
+			isa = PBXGroup;
+			children = (
+				006457AD24C1456E00F87A31 /* MKDeviceTypeManager.h */,
+				006457AC24C1456E00F87A31 /* MKDeviceTypeManager.m */,
+			);
+			path = DeviceTypeManager;
+			sourceTree = "<group>";
+		};
+		006457C524C1456E00F87A31 /* AboutPage */ = {
+			isa = PBXGroup;
+			children = (
+				006457C624C1456E00F87A31 /* Controller */,
+			);
+			path = AboutPage;
+			sourceTree = "<group>";
+		};
+		006457C624C1456E00F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				006457C824C1456E00F87A31 /* MKAboutController.h */,
+				006457C724C1456E00F87A31 /* MKAboutController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		006457E324C1456E00F87A31 /* ScanPage */ = {
+			isa = PBXGroup;
+			children = (
+				006457E424C1456E00F87A31 /* Controller */,
+				006457E724C1456E00F87A31 /* Model */,
+				006457EC24C1456E00F87A31 /* View */,
+			);
+			path = ScanPage;
+			sourceTree = "<group>";
+		};
+		006457E424C1456E00F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				006457E524C1456E00F87A31 /* MKScanPageController.h */,
+				006457E624C1456E00F87A31 /* MKScanPageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		006457E724C1456E00F87A31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				006457E824C1456E00F87A31 /* MKConfigDateModel.h */,
+				006457EB24C1456E00F87A31 /* MKConfigDateModel.m */,
+				006457EA24C1456E00F87A31 /* MKTrackerModel+MKScanAdd.h */,
+				006457E924C1456E00F87A31 /* MKTrackerModel+MKScanAdd.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		006457EC24C1456E00F87A31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				006457ED24C1456E00F87A31 /* MKScanSearchButton.h */,
+				006457F224C1456E00F87A31 /* MKScanSearchButton.m */,
+				006457F124C1456E00F87A31 /* MKScanSearchView.h */,
+				006457EE24C1456E00F87A31 /* MKScanSearchView.m */,
+				006457EF24C1456E00F87A31 /* MKConnectDeviceProgressView.h */,
+				006457F324C1456E00F87A31 /* MKConnectDeviceProgressView.m */,
+				006457F424C1456E00F87A31 /* MKScanPageCell.h */,
+				006457F024C1456E00F87A31 /* MKScanPageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0064582224C1456F00F87A31 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				0064582324C1456F00F87A31 /* tools */,
+				0064583224C1456F00F87A31 /* base */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		0064582324C1456F00F87A31 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				0064582724C1456F00F87A31 /* MKSlider */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		0064582724C1456F00F87A31 /* MKSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0064582F24C1456F00F87A31 /* MKSlider.h */,
+				0064582C24C1456F00F87A31 /* MKSlider.m */,
+				0064582824C1456F00F87A31 /* sliderMaximumTrackImage@3x.png */,
+				0064582924C1456F00F87A31 /* sliderThumbIcon@3x.png */,
+				0064582A24C1456F00F87A31 /* sliderThumbIcon@2x.png */,
+				0064582B24C1456F00F87A31 /* sliderMaximumTrackImage@2x.png */,
+				0064582D24C1456F00F87A31 /* sliderMinimumTrackIcon@2x.png */,
+				0064582E24C1456F00F87A31 /* sliderMinimumTrackIcon@3x.png */,
+			);
+			path = MKSlider;
+			sourceTree = "<group>";
+		};
+		0064583224C1456F00F87A31 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0064583324C1456F00F87A31 /* cell */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		0064583324C1456F00F87A31 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0064583624C1456F00F87A31 /* MKContactTrackerTextCell.h */,
+				0064583424C1456F00F87A31 /* MKContactTrackerTextCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0064588124C1A75300F87A31 /* DevicePage */ = {
+			isa = PBXGroup;
+			children = (
+				0064588224C1A75300F87A31 /* Controller */,
+				0064588524C1A75300F87A31 /* Model */,
+			);
+			path = DevicePage;
+			sourceTree = "<group>";
+		};
+		0064588224C1A75300F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0064588324C1A75300F87A31 /* MKDeviceInfoController.h */,
+				0064588424C1A75300F87A31 /* MKDeviceInfoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0064588524C1A75300F87A31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0064588724C1A75300F87A31 /* MKDeviceInfoModel.h */,
+				0064588624C1A75300F87A31 /* MKDeviceInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0064588824C1A75300F87A31 /* TabBarPage */ = {
+			isa = PBXGroup;
+			children = (
+				0064588924C1A75300F87A31 /* Controller */,
+			);
+			path = TabBarPage;
+			sourceTree = "<group>";
+		};
+		0064588924C1A75300F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0064588B24C1A75300F87A31 /* MKMainTabBarController.h */,
+				0064588A24C1A75300F87A31 /* MKMainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0064588C24C1A75300F87A31 /* SettingPage */ = {
+			isa = PBXGroup;
+			children = (
+				0064588D24C1A75300F87A31 /* Controller */,
+				0064589024C1A75300F87A31 /* Model */,
+				0064589324C1A75300F87A31 /* View */,
+			);
+			path = SettingPage;
+			sourceTree = "<group>";
+		};
+		0064588D24C1A75300F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0064588E24C1A75300F87A31 /* MKSettingController.h */,
+				0064588F24C1A75300F87A31 /* MKSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0064589024C1A75300F87A31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0064589124C1A75300F87A31 /* MKSwitchStatusCellModel.h */,
+				0064589224C1A75300F87A31 /* MKSwitchStatusCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0064589324C1A75300F87A31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0098BEF224D3CB5800D8899F /* MKSettingTableViewCell.h */,
+				0098BEF324D3CB5800D8899F /* MKSettingTableViewCell.m */,
+				006458A024C1A75300F87A31 /* MKScannWindowConfigView.h */,
+				0064589424C1A75300F87A31 /* MKScannWindowConfigView.m */,
+				0064589524C1A75300F87A31 /* MKTriggerSensitivityView.h */,
+				006458A124C1A75300F87A31 /* MKTriggerSensitivityView.m */,
+				006458A224C1A75300F87A31 /* MKSwitchStatusCell.h */,
+				0064589F24C1A75300F87A31 /* MKSwitchStatusCell.m */,
+				0064589624C1A75300F87A31 /* slider */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0064589624C1A75300F87A31 /* slider */ = {
+			isa = PBXGroup;
+			children = (
+				0064589E24C1A75300F87A31 /* MKTriggerSenSlider.h */,
+				0064589924C1A75300F87A31 /* MKTriggerSenSlider.m */,
+				0064589724C1A75300F87A31 /* sensitivityThumbIcon@2x.png */,
+				0064589824C1A75300F87A31 /* sensitivityThumbIcon@3x.png */,
+				0064589A24C1A75300F87A31 /* sensitivityMaxTrackIcon@3x.png */,
+				0064589B24C1A75300F87A31 /* sensitivityMaxTrackIcon@2x.png */,
+				0064589C24C1A75300F87A31 /* sensitivityMinTrackIcon@2x.png */,
+				0064589D24C1A75300F87A31 /* sensitivityMinTrackIcon@3x.png */,
+			);
+			path = slider;
+			sourceTree = "<group>";
+		};
+		006458A324C1A75300F87A31 /* AdvertiserPage */ = {
+			isa = PBXGroup;
+			children = (
+				006458A424C1A75300F87A31 /* Controller */,
+				006458A724C1A75300F87A31 /* Model */,
+				006458AC24C1A75300F87A31 /* View */,
+			);
+			path = AdvertiserPage;
+			sourceTree = "<group>";
+		};
+		006458A424C1A75300F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				006458A624C1A75300F87A31 /* MKAdvertiserPageController.h */,
+				006458A524C1A75300F87A31 /* MKAdvertiserPageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		006458A724C1A75300F87A31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0064590224C1BF0E00F87A31 /* MKAdvertiserDataModel.h */,
+				0064590124C1BF0E00F87A31 /* MKAdvertiserDataModel.m */,
+				006458A824C1A75300F87A31 /* MKAdvertiserNormalCellModel.h */,
+				006458AA24C1A75300F87A31 /* MKAdvertiserNormalCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		006458AC24C1A75300F87A31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				006458B224C1A75400F87A31 /* MKAdvertiserCellProtocol.h */,
+				006458AD24C1A75300F87A31 /* MKAdvIntervalCell.h */,
+				006458B124C1A75300F87A31 /* MKAdvIntervalCell.m */,
+				006458AE24C1A75300F87A31 /* MKAdvTxPowerCell.h */,
+				006458B324C1A75400F87A31 /* MKAdvTxPowerCell.m */,
+				006458AF24C1A75300F87A31 /* MKAdvTriggerCell.h */,
+				006458B524C1A75400F87A31 /* MKAdvTriggerCell.m */,
+				006458B024C1A75300F87A31 /* MKAdvertiserNormalCell.h */,
+				006458B424C1A75400F87A31 /* MKAdvertiserNormalCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		006458B624C1A75400F87A31 /* ScannerPage */ = {
+			isa = PBXGroup;
+			children = (
+				006458B724C1A75400F87A31 /* Controller */,
+				006458BE24C1A75400F87A31 /* Model */,
+				006458C724C1A75400F87A31 /* View */,
+			);
+			path = ScannerPage;
+			sourceTree = "<group>";
+		};
+		006458B724C1A75400F87A31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				006458BD24C1A75400F87A31 /* MKScannerPageController.h */,
+				006458B924C1A75400F87A31 /* MKScannerPageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		006458BE24C1A75400F87A31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0055FA4324C2916400DCC058 /* MKScannerDataModel.h */,
+				0055FA4424C2916400DCC058 /* MKScannerDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		006458C724C1A75400F87A31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				006458D824C1A75400F87A31 /* MKScannerProtocol.h */,
+				006458CA24C1A75400F87A31 /* MKScannerSliderCell.h */,
+				006458D224C1A75400F87A31 /* MKScannerSliderCell.m */,
+				006458D724C1A75400F87A31 /* MKTrackedDataCell.h */,
+				006458CE24C1A75400F87A31 /* MKTrackedDataCell.m */,
+				006458CF24C1A75400F87A31 /* MKTrackingNotifiCell.h */,
+				006458DA24C1A75400F87A31 /* MKTrackingNotifiCell.m */,
+				0055FA4624C2985400DCC058 /* MKAlarmTriggerRssiCell.h */,
+				0055FA4724C2985400DCC058 /* MKAlarmTriggerRssiCell.m */,
+				005305BA251D8FB600099E3E /* MKVibIntenSityCell.h */,
+				005305BB251D8FB600099E3E /* MKVibIntenSityCell.m */,
+				005305BE251D935000099E3E /* MKVibrationInfoCell.h */,
+				005305BF251D935000099E3E /* MKVibrationInfoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		206275538A211CA8C6A3240D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D1E16A014090734C93FC151 /* Pods-MKLoRaTracker.debug.xcconfig */,
+				4AF5C38B5F711A6A243F8A8C /* Pods-MKLoRaTracker.release.xcconfig */,
+				B269A7C445D1A5748BA87C27 /* Pods-MKLoRaTracker.adhoc.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		68BF5C0524B8BC53F439B949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95B4C440F8A2DD11391C1C11 /* Pods_MKLoRaTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		006455E024C13ACA00F87A31 /* MKLoRaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006455FA24C13ACC00F87A31 /* Build configuration list for PBXNativeTarget "MKLoRaTracker" */;
+			buildPhases = (
+				DE51FA5AC51F786D6B8D55A8 /* [CP] Check Pods Manifest.lock */,
+				006455DD24C13ACA00F87A31 /* Sources */,
+				006455DE24C13ACA00F87A31 /* Frameworks */,
+				006455DF24C13ACA00F87A31 /* Resources */,
+				1F7B47F4C13154933830D718 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKLoRaTracker;
+			productName = MKLoRaTracker;
+			productReference = 006455E124C13ACA00F87A31 /* LoRa Tracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		006455D924C13ACA00F87A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = MK;
+				TargetAttributes = {
+					006455E024C13ACA00F87A31 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 006455DC24C13ACA00F87A31 /* Build configuration list for PBXProject "MKLoRaTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 006455D824C13ACA00F87A31;
+			productRefGroup = 006455E224C13ACA00F87A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006455E024C13ACA00F87A31 /* MKLoRaTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		006455DF24C13ACA00F87A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0064572D24C13E7B00F87A31 /* scanHeaderView_ arrowUpIcon@2x.png in Resources */,
+				0064573424C13E7B00F87A31 /* deviceTabBarItemUnselected@2x.png in Resources */,
+				006458E524C1A75400F87A31 /* sensitivityMaxTrackIcon@2x.png in Resources */,
+				006458E124C1A75400F87A31 /* sensitivityThumbIcon@2x.png in Resources */,
+				006456BF24C13E7A00F87A31 /* slotDataTypeT&HIcon@2x.png in Resources */,
+				006456E124C13E7B00F87A31 /* slotDataTypeThreeAccelerometerIcon@3x.png in Resources */,
+				0064587924C1456F00F87A31 /* sliderMaximumTrackImage@2x.png in Resources */,
+				0064570024C13E7B00F87A31 /* device_soc@2x.png in Resources */,
+				0064570224C13E7B00F87A31 /* littleBluePoint@3x.png in Resources */,
+				006456D924C13E7B00F87A31 /* scanRefresh@2x.png in Resources */,
+				006456CF24C13E7B00F87A31 /* device_manufacture@3x.png in Resources */,
+				006456B724C13E7A00F87A31 /* device_manufacture@2x.png in Resources */,
+				0064572024C13E7B00F87A31 /* advTabBarItemSelected@2x.png in Resources */,
+				0064573124C13E7B00F87A31 /* slot_config_temperatureIcon@3x.png in Resources */,
+				006456E324C13E7B00F87A31 /* slotInfoTypeIcon@2x.png in Resources */,
+				006456DA24C13E7B00F87A31 /* slotDataTypeiBeacon@3x.png in Resources */,
+				006456FF24C13E7B00F87A31 /* refreshIcon@2x.png in Resources */,
+				0064574524C13E7B00F87A31 /* device_macadress@2x.png in Resources */,
+				006456C924C13E7B00F87A31 /* slot_config_humidityIcon@2x.png in Resources */,
+				006456B524C13E7A00F87A31 /* setting_updateFirmwareIcon@2x.png in Resources */,
+				006456F724C13E7B00F87A31 /* slot_frameType@3x.png in Resources */,
+				006456DB24C13E7B00F87A31 /* slot_htDataSaveIcon@3x.png in Resources */,
+				0064570D24C13E7B00F87A31 /* settingTabBarItemSelected@2x.png in Resources */,
+				0064573F24C13E7B00F87A31 /* setting_update@3x.png in Resources */,
+				0064573224C13E7B00F87A31 /* navigation_back_button@3x.png in Resources */,
+				0064570E24C13E7B00F87A31 /* settingTabBarItemSelected@3x.png in Resources */,
+				0064574224C13E7B00F87A31 /* scanHeaderView_ arrowUpIcon@3x.png in Resources */,
+				006456EB24C13E7B00F87A31 /* slotInfoTypeIcon@3x.png in Resources */,
+				0064574124C13E7B00F87A31 /* scannerTabBarItemUnselected@3x.png in Resources */,
+				0064572524C13E7B00F87A31 /* slot_paramsConfig_selectedIcon@2x.png in Resources */,
+				0064571024C13E7B00F87A31 /* slot_params_triggerIcon@2x.png in Resources */,
+				006456BB24C13E7A00F87A31 /* advTabBarItemUnselected@3x.png in Resources */,
+				006456FA24C13E7B00F87A31 /* device_runningtime@2x.png in Resources */,
+				006456B324C13E7A00F87A31 /* cellRight_selected_pic@3x.png in Resources */,
+				006456C724C13E7A00F87A31 /* setting_directed@2x.png in Resources */,
+				006456FD24C13E7B00F87A31 /* clearButtonIcon@3x.png in Resources */,
+				0064572E24C13E7B00F87A31 /* scannerTabBarItemUnselected@2x.png in Resources */,
+				0064573324C13E7B00F87A31 /* threeAxisAcceLoadingIcon@3x.png in Resources */,
+				006456D724C13E7B00F87A31 /* slotTabBarItemSelected@2x.png in Resources */,
+				006456D524C13E7B00F87A31 /* rightIconUnselectedCircle@3x.png in Resources */,
+				0064571D24C13E7B00F87A31 /* clearButtonIcon@2x.png in Resources */,
+				006456CD24C13E7B00F87A31 /* settingTabBarItemUnselected@3x.png in Resources */,
+				006456BE24C13E7A00F87A31 /* setting_directed@3x.png in Resources */,
+				006456F124C13E7B00F87A31 /* batteryHigher@3x.png in Resources */,
+				0064574C24C13E7B00F87A31 /* slot_htUpdateTimeIcon@2x.png in Resources */,
+				006456B224C13E7A00F87A31 /* wifisignalIcon@2x.png in Resources */,
+				0064571524C13E7B00F87A31 /* slot_export_enableIcon@3x.png in Resources */,
+				006456B924C13E7A00F87A31 /* setting_reset@3x.png in Resources */,
+				006456F024C13E7B00F87A31 /* slot_advContent@2x.png in Resources */,
+				0064574A24C13E7B00F87A31 /* slot_paramsConfig_selectedIcon@3x.png in Resources */,
+				0064573924C13E7B00F87A31 /* setting_powerOff@2x.png in Resources */,
+				0064572124C13E7B00F87A31 /* device_runningtime@3x.png in Resources */,
+				006456EF24C13E7B00F87A31 /* slot_baseParams@3x.png in Resources */,
+				006456F224C13E7B00F87A31 /* slot_htDataSaveIcon@2x.png in Resources */,
+				006456E224C13E7B00F87A31 /* scanHeaderView_ arrowDownIcon@3x.png in Resources */,
+				006458E424C1A75400F87A31 /* sensitivityMaxTrackIcon@3x.png in Resources */,
+				006456DF24C13E7B00F87A31 /* deviceTabBarItemSelected@3x.png in Resources */,
+				006456DD24C13E7B00F87A31 /* slot_advContent@3x.png in Resources */,
+				0064573024C13E7B00F87A31 /* setting_update@2x.png in Resources */,
+				0064571E24C13E7B00F87A31 /* goNext_whiteButton@3x.png in Resources */,
+				005B2BE024C80F8C008BDB27 /* filterRawDataAddIcon@2x.png in Resources */,
+				006456C424C13E7A00F87A31 /* searchBlueIcon@2x.png in Resources */,
+				006458E224C1A75400F87A31 /* sensitivityThumbIcon@3x.png in Resources */,
+				006456FC24C13E7B00F87A31 /* slotDataTypeH&TIcon@2x.png in Resources */,
+				006456E924C13E7B00F87A31 /* scanHeaderView_ arrowDownIcon@2x.png in Resources */,
+				0064571124C13E7B00F87A31 /* device_productmodel@3x.png in Resources */,
+				006456C124C13E7A00F87A31 /* searchBlueIcon@3x.png in Resources */,
+				006456F324C13E7B00F87A31 /* slotDataTypeiBeacon@2x.png in Resources */,
+				006456CA24C13E7B00F87A31 /* advTabBarItemUnselected@2x.png in Resources */,
+				006456BD24C13E7A00F87A31 /* scannerTabBarItemSelected@3x.png in Resources */,
+				0064571224C13E7B00F87A31 /* batteryLowest@3x.png in Resources */,
+				006456D824C13E7B00F87A31 /* slot_frameType@2x.png in Resources */,
+				006456E824C13E7B00F87A31 /* searchGrayIcon@2x.png in Resources */,
+				006456F824C13E7B00F87A31 /* rightIconUnselectedCircle@2x.png in Resources */,
+				006456BA24C13E7A00F87A31 /* setting_password@2x.png in Resources */,
+				0064573824C13E7B00F87A31 /* slotSaveIcon@2x.png in Resources */,
+				0064570924C13E7B00F87A31 /* batteryLowest@2x.png in Resources */,
+				006458E624C1A75400F87A31 /* sensitivityMinTrackIcon@2x.png in Resources */,
+				006456D124C13E7B00F87A31 /* setting_updateFirmwareIcon@3x.png in Resources */,
+				006456E024C13E7B00F87A31 /* device_software@2x.png in Resources */,
+				006456E724C13E7B00F87A31 /* goto_next_button@2x.png in Resources */,
+				006456DC24C13E7B00F87A31 /* batteryHigher@2x.png in Resources */,
+				0064570824C13E7B00F87A31 /* setting_connectable@3x.png in Resources */,
+				006456B424C13E7A00F87A31 /* slot_export_deleteIcon@2x.png in Resources */,
+				0064573524C13E7B00F87A31 /* slot_htParamsConfig_saveIcon@3x.png in Resources */,
+				0064574624C13E7B00F87A31 /* device_firmware@3x.png in Resources */,
+				006456F924C13E7B00F87A31 /* slot_baseParams_advertising@3x.png in Resources */,
+				0064570524C13E7B00F87A31 /* slot_export_disableIcon@2x.png in Resources */,
+				0064587724C1456F00F87A31 /* sliderThumbIcon@3x.png in Resources */,
+				006455F124C13ACC00F87A31 /* Assets.xcassets in Resources */,
+				0064571B24C13E7B00F87A31 /* refreshIcon@3x.png in Resources */,
+				006456D024C13E7B00F87A31 /* slot_export_deleteIcon@3x.png in Resources */,
+				0064572624C13E7B00F87A31 /* rightAddEnableIcon@3x.png in Resources */,
+				0064572424C13E7B00F87A31 /* navigation_back_button_white@3x.png in Resources */,
+				0064572324C13E7B00F87A31 /* slot_htUpdateTimeIcon@3x.png in Resources */,
+				0064573E24C13E7B00F87A31 /* slot_config_temperatureIcon@2x.png in Resources */,
+				006456F624C13E7B00F87A31 /* slotTabBarItemSelected@3x.png in Resources */,
+				0064572824C13E7B00F87A31 /* device_firmware@2x.png in Resources */,
+				005B2BE124C80F8C008BDB27 /* filterRawDataSubIcon@2x.png in Resources */,
+				0064571F24C13E7B00F87A31 /* slotDataTypeH&TIcon@3x.png in Resources */,
+				0064572C24C13E7B00F87A31 /* aboutIcon@2x.png in Resources */,
+				0064571624C13E7B00F87A31 /* scanHeaderViewBackIcon@2x.png in Resources */,
+				0064587824C1456F00F87A31 /* sliderThumbIcon@2x.png in Resources */,
+				006456F524C13E7B00F87A31 /* slotDataTypeCustom@2x.png in Resources */,
+				0064570F24C13E7B00F87A31 /* batteryLow@2x.png in Resources */,
+				006456CB24C13E7B00F87A31 /* setting_reset@2x.png in Resources */,
+				006456B824C13E7A00F87A31 /* settingTabBarItemUnselected@2x.png in Resources */,
+				0064570C24C13E7B00F87A31 /* batteryLow@3x.png in Resources */,
+				0064571324C13E7B00F87A31 /* setting_connectable@2x.png in Resources */,
+				0064570624C13E7B00F87A31 /* slot_export_enableIcon@2x.png in Resources */,
+				0064570A24C13E7B00F87A31 /* device_productmodel@2x.png in Resources */,
+				0064573724C13E7B00F87A31 /* slotSaveIcon@3x.png in Resources */,
+				006456E424C13E7B00F87A31 /* slotDataTypeNoData@2x.png in Resources */,
+				005B2C1224C86534008BDB27 /* aboutBottomIcon@2x.png in Resources */,
+				006456B124C13E7A00F87A31 /* batteryLower@3x.png in Resources */,
+				006456BC24C13E7A00F87A31 /* slot_config_humidityIcon@3x.png in Resources */,
+				0064572B24C13E7B00F87A31 /* slotTabBarItemUnselected@2x.png in Resources */,
+				0064570424C13E7B00F87A31 /* device_hardware@3x.png in Resources */,
+				0064573D24C13E7B00F87A31 /* navigation_back_button@2x.png in Resources */,
+				0064571424C13E7B00F87A31 /* slot_export_disableIcon@3x.png in Resources */,
+				006456C324C13E7A00F87A31 /* setting_devicename@2x.png in Resources */,
+				006456C624C13E7A00F87A31 /* rightAddDisableIcon@2x.png in Resources */,
+				006456B624C13E7A00F87A31 /* signalIcon@3x.png in Resources */,
+				0064587B24C1456F00F87A31 /* sliderMinimumTrackIcon@2x.png in Resources */,
+				0064574024C13E7B00F87A31 /* goNext_lightWhiteButton@2x.png in Resources */,
+				005B2C1324C86534008BDB27 /* aboutBottomIcon@3x.png in Resources */,
+				0064572924C13E7B00F87A31 /* rightIconSelectedCircle@3x.png in Resources */,
+				006456D624C13E7B00F87A31 /* slotDataTypeCustom@3x.png in Resources */,
+				006456C524C13E7A00F87A31 /* slotDataTypeT&HIcon@3x.png in Resources */,
+				006456ED24C13E7B00F87A31 /* deviceTabBarItemSelected@2x.png in Resources */,
+				0064574924C13E7B00F87A31 /* scanRightAboutIcon@2x.png in Resources */,
+				0064570124C13E7B00F87A31 /* slot_paramsConfig_unselectedIcon@3x.png in Resources */,
+				006456EC24C13E7B00F87A31 /* slotDataTypeThreeAccelerometerIcon@2x.png in Resources */,
+				0064571A24C13E7B00F87A31 /* littleBluePoint@2x.png in Resources */,
+				0064572F24C13E7B00F87A31 /* goNext_lightWhiteButton@3x.png in Resources */,
+				0064574424C13E7B00F87A31 /* slotTabBarItemUnselected@3x.png in Resources */,
+				0064570724C13E7B00F87A31 /* scanHeaderViewBackIcon@3x.png in Resources */,
+				006456D424C13E7B00F87A31 /* batteryLower@2x.png in Resources */,
+				006456E524C13E7B00F87A31 /* searchGrayIcon@3x.png in Resources */,
+				006456FE24C13E7B00F87A31 /* goNext_whiteButton@2x.png in Resources */,
+				0064571724C13E7B00F87A31 /* device_hardware@2x.png in Resources */,
+				0064574724C13E7B00F87A31 /* rightIconSelectedCircle@2x.png in Resources */,
+				006456CE24C13E7B00F87A31 /* signalIcon@2x.png in Resources */,
+				0064587C24C1456F00F87A31 /* sliderMinimumTrackIcon@3x.png in Resources */,
+				0064572A24C13E7B00F87A31 /* device_macadress@3x.png in Resources */,
+				0064573B24C13E7B00F87A31 /* deviceTabBarItemUnselected@3x.png in Resources */,
+				006456EA24C13E7B00F87A31 /* slotDataTypeNoData@3x.png in Resources */,
+				0064588024C1485500F87A31 /* LaunchScreen.storyboard in Resources */,
+				005B2BDF24C80F8C008BDB27 /* filterRawDataSubIcon@3x.png in Resources */,
+				0064574824C13E7B00F87A31 /* rightAddEnableIcon@2x.png in Resources */,
+				0064572724C13E7B00F87A31 /* scanRightAboutIcon@3x.png in Resources */,
+				0064573A24C13E7B00F87A31 /* slot_htParamsConfig_saveIcon@2x.png in Resources */,
+				006456C824C13E7A00F87A31 /* scannerTabBarItemSelected@2x.png in Resources */,
+				006456C224C13E7A00F87A31 /* setting_devicename@3x.png in Resources */,
+				006456C024C13E7A00F87A31 /* rightAddDisableIcon@3x.png in Resources */,
+				005B2BE224C80F8C008BDB27 /* filterRawDataAddIcon@3x.png in Resources */,
+				006456D324C13E7B00F87A31 /* wifisignalIcon@3x.png in Resources */,
+				006456FB24C13E7B00F87A31 /* advTabBarItemSelected@3x.png in Resources */,
+				0064571824C13E7B00F87A31 /* batteryHighest@3x.png in Resources */,
+				006458E724C1A75400F87A31 /* sensitivityMinTrackIcon@3x.png in Resources */,
+				006456DE24C13E7B00F87A31 /* slot_baseParams@2x.png in Resources */,
+				0064573C24C13E7B00F87A31 /* threeAxisAcceLoadingIcon@2x.png in Resources */,
+				0064587624C1456F00F87A31 /* sliderMaximumTrackImage@3x.png in Resources */,
+				006456E624C13E7B00F87A31 /* goto_next_button@3x.png in Resources */,
+				006456F424C13E7B00F87A31 /* scanRefresh@3x.png in Resources */,
+				0064572224C13E7B00F87A31 /* slot_baseParams_advertising@2x.png in Resources */,
+				006456CC24C13E7B00F87A31 /* setting_password@3x.png in Resources */,
+				0064574B24C13E7B00F87A31 /* navigation_back_button_white@2x.png in Resources */,
+				0064571C24C13E7B00F87A31 /* device_soc@3x.png in Resources */,
+				0064571924C13E7B00F87A31 /* slot_paramsConfig_unselectedIcon@2x.png in Resources */,
+				0064574324C13E7B00F87A31 /* aboutIcon@3x.png in Resources */,
+				0064570324C13E7B00F87A31 /* batteryHighest@2x.png in Resources */,
+				0064570B24C13E7B00F87A31 /* slot_params_triggerIcon@3x.png in Resources */,
+				006456EE24C13E7B00F87A31 /* device_software@3x.png in Resources */,
+				006456D224C13E7B00F87A31 /* cellRight_selected_pic@2x.png in Resources */,
+				0064573624C13E7B00F87A31 /* setting_powerOff@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7B47F4C13154933830D718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MKLoRaTracker/Pods-MKLoRaTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MKLoRaTracker/Pods-MKLoRaTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MKLoRaTracker/Pods-MKLoRaTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE51FA5AC51F786D6B8D55A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MKLoRaTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006455DD24C13ACA00F87A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0064587A24C1456F00F87A31 /* MKSlider.m in Sources */,
+				0064584424C1456F00F87A31 /* MKDFUAdopter.m in Sources */,
+				0064583A24C1456F00F87A31 /* CBPeripheral+MKTracker.m in Sources */,
+				005B2C0124C8199F008BDB27 /* MKFilterMajorMinorCell.m in Sources */,
+				006458FD24C1A75400F87A31 /* MKTrackedDataCell.m in Sources */,
+				0098BEFA24D4001D00D8899F /* MKCDOptionsCellModel.m in Sources */,
+				0055FA5724C2DD8A00DCC058 /* MKDeviceSettingTextCell.m in Sources */,
+				006458EC24C1A75400F87A31 /* MKAdvertiserNormalCellModel.m in Sources */,
+				0064583924C1456F00F87A31 /* MKTrackerInterface.m in Sources */,
+				0064583B24C1456F00F87A31 /* MKTrackerModel.m in Sources */,
+				005B2C0A24C81A61008BDB27 /* MKAdvDataFliterCellModel.m in Sources */,
+				006458DB24C1A75400F87A31 /* MKDeviceInfoController.m in Sources */,
+				0064584E24C1456F00F87A31 /* MKAboutController.m in Sources */,
+				0064583824C1456F00F87A31 /* MKTrackerInterface+MKConfig.m in Sources */,
+				0055FA5224C2DD5000DCC058 /* MKDeviceSettingTextCellModel.m in Sources */,
+				005305BC251D8FB600099E3E /* MKVibIntenSityCell.m in Sources */,
+				0064584524C1456F00F87A31 /* MKDeviceTypeManager.m in Sources */,
+				005B2C0D24C81A61008BDB27 /* MKFilterOptionsModel.m in Sources */,
+				0064584224C1456F00F87A31 /* MKFileManager.m in Sources */,
+				006458DF24C1A75400F87A31 /* MKSwitchStatusCellModel.m in Sources */,
+				006458DE24C1A75400F87A31 /* MKSettingController.m in Sources */,
+				005B2C0C24C81A61008BDB27 /* MKFilterMajorMinorCellModel.m in Sources */,
+				006458EF24C1A75400F87A31 /* MKAdvertiserNormalCell.m in Sources */,
+				0064584024C1456F00F87A31 /* MKTrackerCentralManager.m in Sources */,
+				006458DD24C1A75400F87A31 /* MKMainTabBarController.m in Sources */,
+				0064585D24C1456F00F87A31 /* MKTrackerModel+MKScanAdd.m in Sources */,
+				0055FA6424C2E76B00DCC058 /* MKDeviceSettingModel.m in Sources */,
+				0055FA4524C2916400DCC058 /* MKScannerDataModel.m in Sources */,
+				006458ED24C1A75400F87A31 /* MKAdvIntervalCell.m in Sources */,
+				0064585E24C1456F00F87A31 /* MKConfigDateModel.m in Sources */,
+				005B2BFE24C81979008BDB27 /* MKAdvDataFliterCell.m in Sources */,
+				005B2BF824C818C0008BDB27 /* MKFilterOptionsHeaderView.m in Sources */,
+				0064586224C1456F00F87A31 /* MKConnectDeviceProgressView.m in Sources */,
+				006458F024C1A75400F87A31 /* MKAdvTriggerCell.m in Sources */,
+				006458E824C1A75400F87A31 /* MKSwitchStatusCell.m in Sources */,
+				006458E324C1A75400F87A31 /* MKTriggerSenSlider.m in Sources */,
+				006458EA24C1A75400F87A31 /* MKAdvertiserPageController.m in Sources */,
+				0098BEF424D3CB5800D8899F /* MKSettingTableViewCell.m in Sources */,
+				006458E924C1A75400F87A31 /* MKTriggerSensitivityView.m in Sources */,
+				006458F224C1A75400F87A31 /* MKScannerPageController.m in Sources */,
+				006458E024C1A75400F87A31 /* MKScannWindowConfigView.m in Sources */,
+				0098BEFD24D4004F00D8899F /* MKCDOptionsCell.m in Sources */,
+				006458FE24C1A75400F87A31 /* MKScannerSliderCell.m in Sources */,
+				006458DC24C1A75400F87A31 /* MKDeviceInfoModel.m in Sources */,
+				0064583E24C1456F00F87A31 /* MKTrackerAdopter.m in Sources */,
+				005305C0251D935000099E3E /* MKVibrationInfoCell.m in Sources */,
+				0064583D24C1456F00F87A31 /* MKTrackerOperation.m in Sources */,
+				0064590024C1A75400F87A31 /* MKTrackingNotifiCell.m in Sources */,
+				0055FA4F24C2DA4700DCC058 /* MKLoRaSettingController.m in Sources */,
+				0064583F24C1456F00F87A31 /* MKTrackerPeripheral.m in Sources */,
+				005B2BFB24C81952008BDB27 /* MKFilterRawDataCell.m in Sources */,
+				0064584324C1456F00F87A31 /* MKDFUModel.m in Sources */,
+				0055FA6D24C2F12F00DCC058 /* MKMessageTypeCell.m in Sources */,
+				0064586124C1456F00F87A31 /* MKScanSearchButton.m in Sources */,
+				005B2BF224C816F2008BDB27 /* MKFilterOptionsController.m in Sources */,
+				005B2BF724C818C0008BDB27 /* MKFilterRawOptionsView.m in Sources */,
+				006458EE24C1A75400F87A31 /* MKAdvTxPowerCell.m in Sources */,
+				0064587D24C1456F00F87A31 /* MKContactTrackerTextCell.m in Sources */,
+				0064586024C1456F00F87A31 /* MKScanPageCell.m in Sources */,
+				006455E624C13ACA00F87A31 /* AppDelegate.m in Sources */,
+				0064585C24C1456F00F87A31 /* MKScanPageController.m in Sources */,
+				006455F724C13ACC00F87A31 /* main.m in Sources */,
+				0064584124C1456F00F87A31 /* MKUpdateController.m in Sources */,
+				0055FA7024C2F4AC00DCC058 /* MKIntervalCell.m in Sources */,
+				0055FA6724C2EF6700DCC058 /* MKRegionCell.m in Sources */,
+				0055FA5824C2DD8A00DCC058 /* MKDeviceSettingBaseCell.m in Sources */,
+				005B2C0B24C81A61008BDB27 /* MKFilterRawDataCellModel.m in Sources */,
+				0064583C24C1456F00F87A31 /* MKTrackerOperationDataAdopter.m in Sources */,
+				0064585F24C1456F00F87A31 /* MKScanSearchView.m in Sources */,
+				0055FA4824C2985400DCC058 /* MKAlarmTriggerRssiCell.m in Sources */,
+				0064590324C1BF0E00F87A31 /* MKAdvertiserDataModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		002B095324C9258900DF020E /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = adhoc;
+		};
+		002B095424C9258900DF020E /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B269A7C445D1A5748BA87C27 /* Pods-MKLoRaTracker.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2020102601;
+				DEVELOPMENT_TEAM = R558LEUW2T;
+				GCC_PREFIX_HEADER = "/Users/aa/Desktop/公司项目/MKLoRaTracker/MKLoRaTracker/MKLoRaTracker.pch";
+				INFOPLIST_FILE = MKLoRaTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moko.MKLoRaTracking;
+				PRODUCT_NAME = "LoRa Tracking";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = adhoc;
+		};
+		006455F824C13ACC00F87A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		006455F924C13ACC00F87A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		006455FB24C13ACC00F87A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1E16A014090734C93FC151 /* Pods-MKLoRaTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2020102601;
+				DEVELOPMENT_TEAM = R558LEUW2T;
+				GCC_PREFIX_HEADER = "/Users/aa/Desktop/公司项目/MKLoRaTracker/MKLoRaTracker/MKLoRaTracker.pch";
+				INFOPLIST_FILE = MKLoRaTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moko.MKLoRaTracking;
+				PRODUCT_NAME = "LoRa Tracking";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		006455FC24C13ACC00F87A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF5C38B5F711A6A243F8A8C /* Pods-MKLoRaTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2020102601;
+				DEVELOPMENT_TEAM = R558LEUW2T;
+				GCC_PREFIX_HEADER = "/Users/aa/Desktop/公司项目/MKLoRaTracker/MKLoRaTracker/MKLoRaTracker.pch";
+				INFOPLIST_FILE = MKLoRaTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moko.MKLoRaTracking;
+				PRODUCT_NAME = "LoRa Tracking";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006455DC24C13ACA00F87A31 /* Build configuration list for PBXProject "MKLoRaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006455F824C13ACC00F87A31 /* Debug */,
+				002B095324C9258900DF020E /* adhoc */,
+				006455F924C13ACC00F87A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		006455FA24C13ACC00F87A31 /* Build configuration list for PBXNativeTarget "MKLoRaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006455FB24C13ACC00F87A31 /* Debug */,
+				002B095424C9258900DF020E /* adhoc */,
+				006455FC24C13ACC00F87A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 006455D924C13ACA00F87A31 /* Project object */;
+}

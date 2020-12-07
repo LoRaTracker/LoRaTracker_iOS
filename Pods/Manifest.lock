@@ -1,0 +1,118 @@
+PODS:
+  - CircleProgressBar (0.32)
+  - iOSDFULibrary (4.6.1):
+    - ZIPFoundation (= 0.9.9)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - MKBLEBaseModule (0.2.3)
+  - MLInputDodger (1.5.2)
+  - mokoLibrary (1.4.4):
+    - mokoLibrary/base (= 1.4.4)
+    - mokoLibrary/category (= 1.4.4)
+    - mokoLibrary/customUI (= 1.4.4)
+    - mokoLibrary/macroDefines (= 1.4.4)
+    - mokoLibrary/tools (= 1.4.4)
+  - mokoLibrary/base (1.4.4):
+    - mokoLibrary/base/controller (= 1.4.4)
+    - mokoLibrary/base/NavigationController (= 1.4.4)
+    - mokoLibrary/base/view (= 1.4.4)
+  - mokoLibrary/base/controller (1.4.4):
+    - mokoLibrary/base/view/WRNavigationBar
+    - mokoLibrary/category
+    - mokoLibrary/macroDefines
+  - mokoLibrary/base/NavigationController (1.4.4)
+  - mokoLibrary/base/view (1.4.4):
+    - mokoLibrary/base/view/cell (= 1.4.4)
+    - mokoLibrary/base/view/collectionView (= 1.4.4)
+    - mokoLibrary/base/view/tableView (= 1.4.4)
+    - mokoLibrary/base/view/WRNavigationBar (= 1.4.4)
+  - mokoLibrary/base/view/cell (1.4.4):
+    - Masonry
+    - mokoLibrary/macroDefines
+  - mokoLibrary/base/view/collectionView (1.4.4)
+  - mokoLibrary/base/view/tableView (1.4.4)
+  - mokoLibrary/base/view/WRNavigationBar (1.4.4):
+    - mokoLibrary/macroDefines
+  - mokoLibrary/category (1.4.4):
+    - mokoLibrary/macroDefines
+    - Toast
+  - mokoLibrary/customUI (1.4.4):
+    - mokoLibrary/customUI/HaveRefreshView (= 1.4.4)
+    - mokoLibrary/customUI/MKHexKeyBoard (= 1.4.4)
+    - mokoLibrary/customUI/MKHudManager (= 1.4.4)
+    - mokoLibrary/customUI/MKPageControl (= 1.4.4)
+    - mokoLibrary/customUI/MKPickerView (= 1.4.4)
+    - mokoLibrary/customUI/MKProgressView (= 1.4.4)
+    - mokoLibrary/customUI/MKTimePicker (= 1.4.4)
+    - mokoLibrary/customUI/XDRefresh (= 1.4.4)
+  - mokoLibrary/customUI/HaveRefreshView (1.4.4):
+    - MJRefresh
+  - mokoLibrary/customUI/MKHexKeyBoard (1.4.4):
+    - mokoLibrary/category
+    - mokoLibrary/macroDefines
+  - mokoLibrary/customUI/MKHudManager (1.4.4):
+    - MBProgressHUD
+    - mokoLibrary/macroDefines
+  - mokoLibrary/customUI/MKPageControl (1.4.4)
+  - mokoLibrary/customUI/MKPickerView (1.4.4):
+    - mokoLibrary/macroDefines
+  - mokoLibrary/customUI/MKProgressView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - mokoLibrary/category
+    - mokoLibrary/macroDefines
+  - mokoLibrary/customUI/MKTimePicker (1.4.4):
+    - mokoLibrary/category
+    - mokoLibrary/macroDefines
+  - mokoLibrary/customUI/XDRefresh (1.4.4)
+  - mokoLibrary/macroDefines (1.4.4)
+  - mokoLibrary/tools (1.4.4):
+    - mokoLibrary/tools/MKAttributedString (= 1.4.4)
+    - mokoLibrary/tools/MKDateFormatter (= 1.4.4)
+  - mokoLibrary/tools/MKAttributedString (1.4.4)
+  - mokoLibrary/tools/MKDateFormatter (1.4.4)
+  - Toast (4.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZIPFoundation (0.9.9)
+
+DEPENDENCIES:
+  - iOSDFULibrary (= 4.6.1)
+  - MKBLEBaseModule
+  - MLInputDodger
+  - mokoLibrary
+  - YYKit
+
+SPEC REPOS:
+  "git@120.27.8.241:mokoBaseLibrary/mokoBaseIndexLibrary.git":
+    - MKBLEBaseModule
+    - mokoLibrary
+  https://github.com/CocoaPods/Specs.git:
+    - CircleProgressBar
+    - iOSDFULibrary
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MLInputDodger
+    - Toast
+    - YYKit
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  iOSDFULibrary: 3053cf01eaabec37dc7372fb77ae4a218b577c55
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MKBLEBaseModule: 9c4be62ad73c9e77b81c0cc0eeaf0fe2795cc32a
+  MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
+  mokoLibrary: f70c00771e656e74016f632aa8a786a2d5eaa485
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
+
+PODFILE CHECKSUM: aa7f367c3bfce97ad1be95856d408e66f6c0cc26
+
+COCOAPODS: 1.10.0.rc.1
