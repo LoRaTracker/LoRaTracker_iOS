@@ -1,0 +1,6 @@
+framework module MKLoRaTrackerSDK {
+  umbrella header "MKLoRaTrackerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

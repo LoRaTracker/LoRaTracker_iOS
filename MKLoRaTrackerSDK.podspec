@@ -21,16 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/aadyx2007@163.com/MKLoRaTrackerSDK'
+  s.homepage         = 'https://github.com/LoRaTracker/LoRaTracker_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aadyx2007@163.com' => 'aadyx2007@163.com' }
-  s.source           = { :git => 'https://github.com/aadyx2007@163.com/MKLoRaTrackerSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LoRaTracker/LoRaTracker_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'MKLoRaTrackerSDK/Classes/**/*'
+  
+  s.source_files = 'MKLoRaTrackerSDK/Classes/MKContactTrackerSDK.h'
+    s.subspec 'MKBLEBaseSDK' do |ss|
+      ss.source_files = 'MKLoRaTrackerSDK/Classes/MKBLEBaseSDK/**'
+    end
+    s.subspec 'MKTrackerSDK' do |ss|
+      ss.source_files = 'MKLoRaTrackerSDK/Classes/MKLoRaTrackerSDK/**'
+      ss.dependency 'MKLoRaTrackerSDK/MKBLEBaseSDK'
+    end
   
   # s.resource_bundles = {
   #   'MKLoRaTrackerSDK' => ['MKLoRaTrackerSDK/Assets/*.png']

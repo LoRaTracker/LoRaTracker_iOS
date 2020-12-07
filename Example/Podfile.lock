@@ -1,0 +1,77 @@
+PODS:
+  - CircleProgressBar (0.32)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - iOSDFULibrary (4.6.1):
+    - ZIPFoundation (= 0.9.9)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - MKLoRaTrackerSDK (0.1.0):
+    - MKLoRaTrackerSDK/MKBLEBaseSDK (= 0.1.0)
+    - MKLoRaTrackerSDK/MKTrackerSDK (= 0.1.0)
+  - MKLoRaTrackerSDK/MKBLEBaseSDK (0.1.0)
+  - MKLoRaTrackerSDK/MKTrackerSDK (0.1.0):
+    - MKLoRaTrackerSDK/MKBLEBaseSDK
+  - MLInputDodger (1.5.2)
+  - Toast (4.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZIPFoundation (0.9.9)
+
+DEPENDENCIES:
+  - CircleProgressBar
+  - FBSnapshotTestCase
+  - FMDB
+  - iOSDFULibrary (= 4.6.1)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MKLoRaTrackerSDK (from `../`)
+  - MLInputDodger
+  - Toast
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CircleProgressBar
+    - FMDB
+    - iOSDFULibrary
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MLInputDodger
+    - Toast
+    - YYKit
+    - ZIPFoundation
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MKLoRaTrackerSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  iOSDFULibrary: 3053cf01eaabec37dc7372fb77ae4a218b577c55
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MKLoRaTrackerSDK: 321afb2845fb56ae3878701f5b73b2a6d6e926b9
+  MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
+
+PODFILE CHECKSUM: ffda3db9f53a33ba3bb1b5d974e921f1b772391e
+
+COCOAPODS: 1.10.0.rc.1
